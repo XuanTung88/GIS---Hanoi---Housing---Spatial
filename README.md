@@ -94,6 +94,7 @@ Dự án tuân thủ nghiêm ngặt chuẩn quản lý tọa độ trong GIS:
 Toàn bộ đồ án được thiết kế theo luồng quy trình khoa học dữ liệu không gian khép kín (Spatial Data Science Pipeline):
 
 mermaid
+---
 flowchart TD
     subgraph ThuThap [1. Thu thập & Làm sạch dữ liệu]
         A1[Chợ Tốt API] -->|Python crawl & clean| A2[housing_hanoi_center_150.csv]
