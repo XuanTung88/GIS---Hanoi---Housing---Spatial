@@ -93,7 +93,7 @@ Dự án tuân thủ nghiêm ngặt chuẩn quản lý tọa độ trong GIS:
 
 Toàn bộ đồ án được thiết kế theo luồng quy trình khoa học dữ liệu không gian khép kín (Spatial Data Science Pipeline):
 
-```mermaid
+mermaid
 flowchart TD
     subgraph ThuThap [1. Thu thập & Làm sạch dữ liệu]
         A1[Chợ Tốt API] -->|Python crawl & clean| A2[housing_hanoi_center_150.csv]
@@ -122,7 +122,7 @@ flowchart TD
         D1 & E4 & B2 & F3 -->|Express REST API + PostGIS / Fallback| G1[Backend Service \n :3000]
         G1 -->|Leaflet.js + Chart.js| G2[Giao diện WebGIS \n Bản đồ tương tác, Lọc đa tiêu chí, Tra cứu bán kính, Thống kê]
     end
-```
+
 
 ---
 
