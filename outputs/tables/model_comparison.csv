@@ -1,0 +1,3 @@
+﻿model,n_obs,n_features,r2
+"OLS (toàn bộ dữ liệu, biến gọn)",121,15,0.407
+"Random Forest (5-fold CV, toàn bộ biến)",121,36,0.092

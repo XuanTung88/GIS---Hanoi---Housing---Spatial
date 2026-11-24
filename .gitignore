@@ -1,0 +1,145 @@
+# ==============================================================================
+# .gitignore cho Đề tài GIS: Phân tích không gian & Định giá Bất động sản Hà Nội
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. BẢO MẬT & MÔI TRƯỜNG (Environment & Secrets)
+# ------------------------------------------------------------------------------
+# Chứa thông tin nhạy cảm (mật khẩu database PostGIS, port, secret key)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Giữ lại file mẫu cấu hình để người khác clone về tham khảo
+!.env.example
+
+# ------------------------------------------------------------------------------
+# 2. NODE.JS & WEBAPP BACKEND
+# ------------------------------------------------------------------------------
+# Thư viện phụ thuộc (rất nặng, có thể cài lại bằng `npm install`)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ------------------------------------------------------------------------------
+# 3. PYTHON & DATA SCIENCE / MACHINE LEARNING
+# ------------------------------------------------------------------------------
+# Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Môi trường ảo (Virtual Environments - rất nặng, không đẩy lên Git)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Phân tích & kiểm thử Python
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# ------------------------------------------------------------------------------
+# 4. GIS, QGIS & DỮ LIỆU ĐỊA KHÔNG GIAN (Geospatial & Spatial DB)
+# ------------------------------------------------------------------------------
+# File tạm và sao lưu tự động của QGIS
+*.qgs~
+*.qgz~
+*.bak
+*.qml~
+
+# Lock files và bộ nhớ đệm GeoPackage / SQLite / Shapefile
+*.gpkg-wal
+*.gpkg-shm
+*.sqlite-wal
+*.sqlite-shm
+*.lock
+*.sr.lock
+*.xml.lock
+*.cpg.lock
+*.shp.*.tmp
+
+# Raster overviews / pyramids tự sinh (thường rất nặng)
+*.ovr
+*.aux
+*.rrd
+*.aux.xml
+
+# PostGIS database dump cá nhân (nếu xuất ra thủ công)
+*.dump
+*.sql.gz
+
+# ------------------------------------------------------------------------------
+# 5. MICROSOFT OFFICE & TÀI LIỆU VĂN PHÒNG
+# ------------------------------------------------------------------------------
+# File tạm khóa của Word/Excel khi đang mở (vd: ~$o_Cao_Mon_Hoc_GIS_Nhom_BDS_HaNoi.docx)
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.tmp
+
+# ------------------------------------------------------------------------------
+# 6. HỆ ĐIỀU HÀNH & TRÌNH SOẠN THẢO (OS & IDEs)
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VS Code & JetBrains IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------------------------
+# 7. LOGS & FILE NÉN
+# ------------------------------------------------------------------------------
+logs/
+*.log
+.cache/
+
+# File nén dữ liệu tải về thủ công (nếu có)
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ------------------------------------------------------------------------------
+# 8. DỮ LIỆU NẶNG HOẶC DỮ LIỆU TẠM (TÙY CHỌN - BỎ COMMENT NẾU CẦN)
+# ------------------------------------------------------------------------------
+# Thư mục dữ liệu trung gian (tránh đẩy file xử lý dở dang):
+data/interim/*
+!data/interim/.gitkeep
+
+# File báo cáo Word hoàn chỉnh (dung lượng ~19MB, có thể tạo lại bằng: python scripts/generate_report_docx.py).
+# Mặc định GitHub cho phép file dưới 100MB, nhưng nếu muốn repo nhẹ tối đa thì bỏ comment dòng dưới:
+# outputs/report/*.docx

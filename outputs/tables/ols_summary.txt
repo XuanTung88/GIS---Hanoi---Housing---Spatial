@@ -1,0 +1,41 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           gia_trieu_m2   R-squared:                       0.407
+Model:                            OLS   Adj. R-squared:                  0.322
+Method:                 Least Squares   F-statistic:                     4.795
+Date:                Mon, 26 Oct 2026   Prob (F-statistic):           5.58e-07
+Time:                        15:48:03   Log-Likelihood:                -778.63
+No. Observations:                 121   AIC:                             1589.
+Df Residuals:                     105   BIC:                             1634.
+Df Model:                          15                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                393.7997     87.155      4.518      0.000     220.988     566.611
+dien_tich              0.4021      0.294      1.369      0.174      -0.180       0.984
+so_tang                8.7705      7.283      1.204      0.231      -5.671      23.212
+dist_bus_stop_m       -0.1326      0.215     -0.616      0.539      -0.559       0.294
+dist_hospital_m       -0.0152      0.080     -0.191      0.849      -0.174       0.143
+dist_marketplace_m    -0.1273      0.084     -1.519      0.132      -0.294       0.039
+dist_park_m           -0.1040      0.089     -1.169      0.245      -0.280       0.072
+dist_school_m         -0.0277      0.117     -0.236      0.814      -0.260       0.205
+dist_supermarket_m     0.0908      0.117      0.773      0.441      -0.142       0.324
+dist_water_lakes_m    -0.2093      0.104     -2.012      0.047      -0.416      -0.003
+Z_score               -4.4740      8.494     -0.527      0.600     -21.316      12.368
+p_value              726.9801    899.569      0.808      0.421   -1056.700    2510.660
+p_fdr               -689.5014    848.919     -0.812      0.419   -2372.751     993.748
+khu_vuc_Hoàn Kiếm    202.3913     78.595      2.575      0.011      46.553     358.230
+khu_vuc_Đống Đa      -23.4289     55.829     -0.420      0.676    -134.127      87.269
+loai_nha_Mặt phố      87.9885     36.736      2.395      0.018      15.148     160.829
+==============================================================================
+Omnibus:                       17.952   Durbin-Watson:                   1.951
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               27.793
+Skew:                           0.713   Prob(JB):                     9.22e-07
+Kurtosis:                       4.865   Cond. No.                     8.26e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 8.26e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

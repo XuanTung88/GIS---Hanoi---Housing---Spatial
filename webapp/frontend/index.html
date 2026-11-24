@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GIS Webapp - Trực Quan Hóa & Phân Tích Giá Nhà Hà Nội</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Leaflet CSS (Local with CDN fallback) -->
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Header Navigation -->
+  <header class="app-header">
+    <div class="header-left">
+      <div class="app-logo">
+        <i class="fa-solid fa-map-location-dot"></i>
+      </div>
+      <div class="app-title-group">
+        <h1 class="app-title">Hệ Thống Web GIS Phân Tích & Định Giá Nhà Ở</h1>
+        <p class="app-subtitle">Trung tâm Hà Nội (Ba Đình - Đống Đa - Hoàn Kiếm) • Mô hình Hedonic & PostGIS</p>
+      </div>
+    </div>
+
+    <div class="header-center">
+      <div class="view-switcher">
+        <button id="btn-view-map" type="button" class="view-btn active" title="Bản đồ không gian tương tác">
+          <i class="fa-solid fa-map"></i> <span>Bản Đồ Không Gian</span>
+        </button>
+        <button id="btn-view-analytics" type="button" class="view-btn" title="Báo cáo mô hình Hedonic & Thống kê">
+          <i class="fa-solid fa-chart-pie"></i> <span>Phân Tích Mô Hình</span>
+        </button>
+        <button id="btn-view-gallery" type="button" class="view-btn" title="Thư viện bản đồ chuyên đề QGIS">
+          <i class="fa-solid fa-images"></i> <span>Bản Đồ QGIS</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <div class="status-badge" id="backend-status">
+        <span class="status-dot"></span>
+        <span id="backend-mode">Đang kết nối...</span>
+      </div>
+      <button id="btn-help-modal" class="icon-btn" title="Hướng dẫn sử dụng">
+        <i class="fa-solid fa-circle-question"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="app-main">
+    <!-- VIEW 1: MAP VIEW -->
+    <section id="view-map" class="view-content active">
+      <!-- Sidebar Control Panel -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-tabs">
+          <button class="tab-btn active" data-tab="tab-layers">
+            <i class="fa-solid fa-layer-group"></i> Lớp dữ liệu
+          </button>
+          <button class="tab-btn" data-tab="tab-filter">
+            <i class="fa-solid fa-filter"></i> Lọc nhà
+          </button>
+          <button class="tab-btn" data-tab="tab-spatial">
+            <i class="fa-solid fa-compass-drafting"></i> Bán kính
+          </button>
+        </div>
+
+        <div class="sidebar-body">
+          <!-- TAB 1: LAYERS -->
+          <div class="tab-pane active" id="tab-layers">
+            <!-- Basemap selector -->
+            <div class="panel-section">
+              <h3 class="section-title"><i class="fa-solid fa-mountain-sun"></i> Bản đồ nền (Base Map)</h3>
+              <div class="basemap-grid">
+                <label class="basemap-card active" data-basemap="osm">
+                  <span class="basemap-name">OpenStreetMap</span>
+                </label>
+                <label class="basemap-card" data-basemap="positron">
+                  <span class="basemap-name">Carto Positron</span>
+                </label>
+                <label class="basemap-card" data-basemap="dark">
+                  <span class="basemap-name">Carto Dark</span>
+                </label>
+                <label class="basemap-card" data-basemap="satellite">
+                  <span class="basemap-name">Vệ tinh Esri</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Raster Overlay -->
+            <div class="panel-section">
+              <div class="section-title-between">
+                <h3 class="section-title"><i class="fa-solid fa-gradient"></i> Nội suy giá IDW (QGIS)</h3>
+                <label class="switch">
+                  <input type="checkbox" id="toggle-idw" checked />
+                  <span class="slider round"></span>
+                </label>
+              </div>
+              <div class="slider-control" id="idw-opacity-box">
+                <div class="slider-header">
+                  <span>Độ mờ lớp nội suy:</span>
+                  <span id="idw-opacity-val">60%</span>
+                </div>
+                <input type="range" id="idw-opacity" min="0" max="100" value="60" />
+              </div>
+            </div>
+
+            <!-- Vector Layers -->
+            <div class="panel-section">
+              <h3 class="section-title"><i class="fa-solid fa-house-chimney"></i> Lớp dữ liệu điểm nhà ở</h3>
+              <div class="layer-item">
+                <label class="checkbox-label">
+                  <input type="checkbox" id="toggle-housing" checked />
+                  <span class="custom-check"></span>
+                  <span>121 Nhà khảo sát</span>
+                </label>
+                <span class="badge" id="housing-count-badge">121</span>
+              </div>
+              <!-- Price Legend -->
+              <div class="price-legend">
+                <div class="legend-title">Phân cấp giá (triệu VNĐ/m²):</div>
+                <div class="legend-row"><span class="legend-dot dot-low"></span> &lt; 200 tr/m² (Mức thấp)</div>
+                <div class="legend-row"><span class="legend-dot dot-mid"></span> 200 - 300 tr/m² (Trung bình)</div>
+                <div class="legend-row"><span class="legend-dot dot-high"></span> 300 - 450 tr/m² (Khá cao)</div>
+                <div class="legend-row"><span class="legend-dot dot-vhigh"></span> &gt; 450 tr/m² (Rất cao / Mặt phố)</div>
+              </div>
+            </div>
+
+            <!-- Boundary Layer -->
+            <div class="panel-section">
+              <h3 class="section-title"><i class="fa-solid fa-draw-polygon"></i> Ranh giới hành chính</h3>
+              <div class="layer-item">
+                <label class="checkbox-label">
+                  <input type="checkbox" id="toggle-boundaries" checked />
+                  <span class="custom-check"></span>
+                  <span>3 Quận (Ba Đình, Đống Đa, Hoàn Kiếm)</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Amenities Layers -->
+            <div class="panel-section">
+              <div class="section-title-between">
+                <h3 class="section-title"><i class="fa-solid fa-tree-city"></i> Tiện ích đô thị (OSM)</h3>
+                <button class="btn-text-small" id="btn-toggle-all-amenities">Tất cả</button>
+              </div>
+              <div id="amenities-checkbox-list" class="amenities-list">
+                <!-- Sẽ được nạp động từ API /api/amenities -->
+                <div class="loading-spinner"><i class="fa-solid fa-circle-notch fa-spin"></i> Đang tải tiện ích...</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 2: FILTER -->
+          <div class="tab-pane" id="tab-filter">
+            <div class="panel-section">
+              <h3 class="section-title"><i class="fa-solid fa-sliders"></i> Bộ lọc tìm kiếm nhà</h3>
+
+              <div class="form-group">
+                <label class="form-label" for="filter-district">Khu vực / Quận:</label>
+                <select id="filter-district" class="form-select">
+                  <option value="Tất cả">Tất cả quận</option>
+                  <option value="Ba Đình">Quận Ba Đình</option>
+                  <option value="Đống Đa">Quận Đống Đa</option>
+                  <option value="Hoàn Kiếm">Quận Hoàn Kiếm</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="filter-housetype">Loại hình bất động sản:</label>
+                <select id="filter-housetype" class="form-select">
+                  <option value="Tất cả">Tất cả loại nhà</option>
+                  <option value="Mặt phố">Mặt phố / Mặt tiền</option>
+                  <option value="Hẻm">Hẻm / Trong ngõ</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Khoảng giá (triệu VNĐ/m²):</label>
+                <div class="range-inputs">
+                  <input type="number" id="filter-min-price" placeholder="Từ" min="50" max="1500" step="10" />
+                  <span>-</span>
+                  <input type="number" id="filter-max-price" placeholder="Đến" min="50" max="1500" step="10" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Diện tích (m²):</label>
+                <div class="range-inputs">
+                  <input type="number" id="filter-min-area" placeholder="Từ" min="10" max="500" step="5" />
+                  <span>-</span>
+                  <input type="number" id="filter-max-area" placeholder="Đến" min="10" max="500" step="5" />
+                </div>
+              </div>
+
+              <div class="filter-actions">
+                <button id="btn-apply-filter" class="btn btn-primary"><i class="fa-solid fa-check"></i> Áp dụng bộ lọc</button>
+                <button id="btn-reset-filter" class="btn btn-secondary"><i class="fa-solid fa-rotate-left"></i> Đặt lại</button>
+              </div>
+
+              <div class="filter-result-alert" id="filter-result-info">
+                Đang hiển thị <strong id="filter-count">121</strong>/121 căn nhà phù hợp.
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 3: SPATIAL QUERY -->
+          <div class="tab-pane" id="tab-spatial">
+            <div class="panel-section">
+              <h3 class="section-title"><i class="fa-solid fa-bullseye"></i> Truy vấn bán kính (ST_DWithin)</h3>
+              <p class="section-desc">
+                Nhấp chuột vào bất kỳ vị trí nào trên bản đồ để tạo tâm phân tích bán kính xung quanh.
+              </p>
+
+              <div class="spatial-toggle-box">
+                <button id="btn-activate-spatial" class="btn btn-accent full-width">
+                  <i class="fa-solid fa-crosshairs"></i> <span>Kích hoạt chế độ chọn tâm</span>
+                </button>
+              </div>
+
+              <div class="form-group margin-top-12">
+                <label class="form-label">Bán kính truy vấn (Buffer): <strong id="spatial-radius-val">500 m</strong></label>
+                <input type="range" id="spatial-radius-slider" min="100" max="2000" step="50" value="500" />
+                <div class="radius-quick-picks">
+                  <button class="pill-btn active" data-radius="300">300m</button>
+                  <button class="pill-btn" data-radius="500">500m</button>
+                  <button class="pill-btn" data-radius="1000">1000m</button>
+                  <button class="pill-btn" data-radius="1500">1500m</button>
+                </div>
+              </div>
+
+              <div id="spatial-results-card" class="spatial-card hidden">
+                <div class="spatial-card-header">
+                  <i class="fa-solid fa-circle-check"></i> Kết quả phân tích vùng đệm
+                </div>
+                <div class="spatial-metrics">
+                  <div class="metric-item">
+                    <span class="metric-val" id="res-total-houses">0</span>
+                    <span class="metric-lbl">Căn nhà</span>
+                  </div>
+                  <div class="metric-item">
+                    <span class="metric-val" id="res-avg-price">0</span>
+                    <span class="metric-lbl">Tr.đ/m² TB</span>
+                  </div>
+                  <div class="metric-item">
+                    <span class="metric-val" id="res-min-price">0</span>
+                    <span class="metric-lbl">Thấp nhất</span>
+                  </div>
+                  <div class="metric-item">
+                    <span class="metric-val" id="res-max-price">0</span>
+                    <span class="metric-lbl">Cao nhất</span>
+                  </div>
+                </div>
+
+                <div class="spatial-house-list-header">Danh sách nhà lân cận:</div>
+                <div class="spatial-house-list" id="spatial-house-list">
+                  <!-- Danh sách nhà trong buffer -->
+                </div>
+
+                <button id="btn-clear-spatial" class="btn btn-outline-danger full-width margin-top-10">
+                  <i class="fa-solid fa-trash-can"></i> Xóa vùng đệm
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Map Wrapper -->
+      <div class="map-wrapper">
+        <div id="map"></div>
+
+        <!-- Floating map helper badges -->
+        <div class="map-floating-panel">
+          <div class="floating-chip">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <span id="map-coords-display">21.0250° N, 105.8350° E</span>
+          </div>
+          <div class="floating-chip" id="map-selection-hint">
+            <i class="fa-solid fa-info-circle"></i>
+            <span>Click vào điểm nhà để xem thông tin chi tiết</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: ANALYTICS & HEDONIC MODEL -->
+    <section id="view-analytics" class="view-content">
+      <div class="analytics-container">
+        <!-- Overview summary cards -->
+        <div class="metrics-grid">
+          <div class="stat-card">
+            <div class="stat-icon bg-blue"><i class="fa-solid fa-building"></i></div>
+            <div class="stat-content">
+              <span class="stat-number">121</span>
+              <span class="stat-title">Căn nhà khảo sát</span>
+              <span class="stat-desc">3 Quận trung tâm Hà Nội</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon bg-green"><i class="fa-solid fa-tags"></i></div>
+            <div class="stat-content">
+              <span class="stat-number">333.4</span>
+              <span class="stat-title">Giá trung bình (tr/m²)</span>
+              <span class="stat-desc">Thấp nhất 66.7 • Cao nhất 1,185.7</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon bg-purple"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="stat-content">
+              <span class="stat-number">R² = 0.407</span>
+              <span class="stat-title">Mô hình Hedonic OLS</span>
+              <span class="stat-desc">Giải thích 40.7% biến động giá</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon bg-orange"><i class="fa-solid fa-tree-city"></i></div>
+            <div class="stat-content">
+              <span class="stat-number">7</span>
+              <span class="stat-title">Lớp tiện ích OSM</span>
+              <span class="stat-desc">Hồ, trường, viện, chợ, xe buýt...</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Charts Grid -->
+        <div class="charts-grid">
+          <!-- Chart 1: Model Comparison -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-wrap">
+                <h3 class="chart-title"><i class="fa-solid fa-scale-balanced"></i> So sánh độ phù hợp R² (OLS vs Random Forest)</h3>
+                <p class="chart-subtitle">So sánh năng lực giải thích giá giữa OLS (15 biến) và Random Forest 5-fold CV (36 biến)</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chart-model-comparison"></canvas>
+            </div>
+            <div class="chart-insight">
+              <i class="fa-solid fa-lightbulb"></i>
+              <span><strong>Nhận định:</strong> OLS đạt R² = 0.407 vượt trội so với Random Forest (R² = 0.092) do cỡ mẫu nhỏ (121 tin), mô hình OLS tránh hiện tượng overfit trên số lượng biến quá lớn.</span>
+            </div>
+          </div>
+
+          <!-- Chart 2: District Comparison -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-wrap">
+                <h3 class="chart-title"><i class="fa-solid fa-city"></i> Mức giá trung bình theo từng Quận</h3>
+                <p class="chart-subtitle">So sánh đơn giá triệu VNĐ/m² giữa Hoàn Kiếm, Ba Đình và Đống Đa</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chart-district-price"></canvas>
+            </div>
+            <div class="chart-insight">
+              <i class="fa-solid fa-circle-info"></i>
+              <span><strong>Đặc điểm:</strong> Hoàn Kiếm dẫn đầu mức giá với trung bình ~480 tr/m², tiếp theo là Ba Đình và Đống Đa.</span>
+            </div>
+          </div>
+
+          <!-- Chart 3: OLS Coefficients -->
+          <div class="chart-card full-width-card">
+            <div class="chart-header">
+              <div class="chart-title-wrap">
+                <h3 class="chart-title"><i class="fa-solid fa-code-compare"></i> Hệ số hồi quy Hedonic OLS (Ảnh hưởng đến giá nhà)</h3>
+                <p class="chart-subtitle">Các biến có hệ số màu đỏ là biến có ý nghĩa thống kê (p-value &lt; 0.05)</p>
+              </div>
+            </div>
+            <div class="chart-body-tall">
+              <canvas id="chart-ols-coefficients"></canvas>
+            </div>
+          </div>
+
+          <!-- Hedonic Findings Table -->
+          <div class="chart-card full-width-card">
+            <div class="chart-header">
+              <div class="chart-title-wrap">
+                <h3 class="chart-title"><i class="fa-solid fa-table-list"></i> Bảng ý nghĩa các biến không gian & thuộc tính trong mô hình</h3>
+                <p class="chart-subtitle">Trích xuất từ kết quả hồi quy statsmodels OLS trên 121 quan sát</p>
+              </div>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table" id="table-ols-summary">
+                <thead>
+                  <tr>
+                    <th>Biến độc lập</th>
+                    <th>Hệ số hồi quy (β)</th>
+                    <th>p-value</th>
+                    <th>Ý nghĩa thống kê (p &lt; 0.05)</th>
+                    <th>Phân tích kinh tế đô thị & GIS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Tải động từ stats API -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: QGIS GALLERY -->
+    <section id="view-gallery" class="view-content">
+      <div class="gallery-container">
+        <div class="gallery-header">
+          <h2><i class="fa-solid fa-map-location"></i> Bộ Sưu Tập Bản Đồ Chuyên Đề & Biểu Đồ Từ QGIS / Python</h2>
+          <p>Các sản phẩm bản đồ phân tích không gian đã xuất khẩu từ phần mềm QGIS và mô hình hồi quy</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- CARD 1: IDW -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap" onclick="openLightbox('img/map_idw_price.png', 'Bản đồ nội suy không gian IDW (Inverse Distance Weighting)')">
+              <img src="img/map_idw_price.png" alt="Bản đồ nội suy IDW giá nhà" loading="lazy" />
+              <div class="gallery-zoom-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Nhấp để phóng to</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-card-badge"><i class="fa-solid fa-layer-group"></i> Nội suy Raster • QGIS</span>
+              <h4>Bản đồ nội suy không gian IDW (Inverse Distance Weighting)</h4>
+              <p>Mô phỏng trường giá nhà liên tục trên địa bàn 3 quận trung tâm Hà Nội từ 121 điểm dữ liệu khảo sát.</p>
+            </div>
+            <div class="gallery-card-footer">
+              <button class="btn btn-gallery-detail" onclick="openGalleryDetail('map_idw')">
+                <i class="fa-solid fa-circle-info"></i> Giải thích chi tiết
+              </button>
+              <button class="btn btn-gallery-zoom" onclick="openLightbox('img/map_idw_price.png', 'Bản đồ nội suy không gian IDW (Inverse Distance Weighting)')">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> Phóng to
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 2: GETIS-ORD GI* -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap" onclick="openLightbox('img/GI_output.png', 'Phân tích điểm nóng Hot Spot (Getis-Ord Gi*)')">
+              <img src="img/GI_output.png" alt="Phân tích điểm nóng Getis-Ord Gi*" loading="lazy" />
+              <div class="gallery-zoom-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Nhấp để phóng to</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-card-badge"><i class="fa-solid fa-fire"></i> Điểm nóng Gi* • Spatial Statistics</span>
+              <h4>Phân tích điểm nóng Hot Spot (Getis-Ord Gi*)</h4>
+              <p>Xác định cụm điểm nóng giá cao (Hot Spot) và điểm lạnh giá thấp (Cold Spot) có ý nghĩa thống kê 95% - 99%.</p>
+            </div>
+            <div class="gallery-card-footer">
+              <button class="btn btn-gallery-detail" onclick="openGalleryDetail('gi_hotspot')">
+                <i class="fa-solid fa-circle-info"></i> Giải thích chi tiết
+              </button>
+              <button class="btn btn-gallery-zoom" onclick="openLightbox('img/GI_output.png', 'Phân tích điểm nóng Hot Spot (Getis-Ord Gi*)')">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> Phóng to
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 3: LOCAL MORAN'S I -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap" onclick="openLightbox('img/moran_output.png', 'Tương quan không gian cục bộ (Local Moran\'s I)')">
+              <img src="img/moran_output.png" alt="Chỉ số Moran không gian cục bộ" loading="lazy" />
+              <div class="gallery-zoom-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Nhấp để phóng to</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-card-badge"><i class="fa-solid fa-chart-pie"></i> Tự tương quan không gian • LISA</span>
+              <h4>Tương quan không gian cục bộ (Local Moran's I)</h4>
+              <p>Đo lường mức độ tương quan không gian, phân loại cụm High-High, Low-Low và phát hiện các ngoại lai không gian.</p>
+            </div>
+            <div class="gallery-card-footer">
+              <button class="btn btn-gallery-detail" onclick="openGalleryDetail('moran')">
+                <i class="fa-solid fa-circle-info"></i> Giải thích chi tiết
+              </button>
+              <button class="btn btn-gallery-zoom" onclick="openLightbox('img/moran_output.png', 'Tương quan không gian cục bộ (Local Moran\'s I)')">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> Phóng to
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 4: RANDOM FOREST IMPORTANCE -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap" onclick="openLightbox('img/rf_feature_importance.png', 'Tầm quan trọng của đặc trưng (Random Forest Importance)')">
+              <img src="img/rf_feature_importance.png" alt="Mức độ quan trọng biến Random Forest" loading="lazy" />
+              <div class="gallery-zoom-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Nhấp để phóng to</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-card-badge"><i class="fa-solid fa-tree"></i> Học máy • Random Forest</span>
+              <h4>Tầm quan trọng của đặc trưng (Random Forest Importance)</h4>
+              <p>Đánh giá mức độ đóng góp của từng biến tiện ích, diện tích và vị trí đối với dự báo giá nhà.</p>
+            </div>
+            <div class="gallery-card-footer">
+              <button class="btn btn-gallery-detail" onclick="openGalleryDetail('rf_importance')">
+                <i class="fa-solid fa-circle-info"></i> Giải thích chi tiết
+              </button>
+              <button class="btn btn-gallery-zoom" onclick="openLightbox('img/rf_feature_importance.png', 'Tầm quan trọng của đặc trưng (Random Forest Importance)')">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> Phóng to
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 5: ACTUAL VS PREDICTED -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap" onclick="openLightbox('img/actual_vs_predicted.png', 'Giá thực tế vs Giá dự đoán (Mô hình Hedonic OLS)')">
+              <img src="img/actual_vs_predicted.png" alt="Giá thực tế vs dự đoán" loading="lazy" />
+              <div class="gallery-zoom-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Nhấp để phóng to</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-card-badge"><i class="fa-solid fa-chart-line"></i> Đánh giá mô hình • Hồi quy OLS</span>
+              <h4>Giá thực tế vs Giá dự đoán (Mô hình Hedonic OLS)</h4>
+              <p>Đường phân giác 45 độ minh họa mức độ tin cậy và phần dư của phương trình hồi quy Hedonic (R² = 0.407).</p>
+            </div>
+            <div class="gallery-card-footer">
+              <button class="btn btn-gallery-detail" onclick="openGalleryDetail('actual_pred')">
+                <i class="fa-solid fa-circle-info"></i> Giải thích chi tiết
+              </button>
+              <button class="btn btn-gallery-zoom" onclick="openLightbox('img/actual_vs_predicted.png', 'Giá thực tế vs Giá dự đoán (Mô hình Hedonic OLS)')">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> Phóng to
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 6: BOXPLOT BY DISTRICT -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap" onclick="openLightbox('img/price_by_district_boxplot.png', 'Biểu đồ hộp (Boxplot) Phân bố giá theo Quận')">
+              <img src="img/price_by_district_boxplot.png" alt="Biểu đồ hộp giá theo quận" loading="lazy" />
+              <div class="gallery-zoom-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Nhấp để phóng to</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-card-badge"><i class="fa-solid fa-box-archive"></i> Thống kê mô tả • Boxplot</span>
+              <h4>Biểu đồ hộp (Boxplot) Phân bố giá theo Quận</h4>
+              <p>Quan sát trung vị, tứ phân vị và các điểm ngoại lai phản ánh mức độ phân hóa giá nhà ở 3 quận.</p>
+            </div>
+            <div class="gallery-card-footer">
+              <button class="btn btn-gallery-detail" onclick="openGalleryDetail('boxplot')">
+                <i class="fa-solid fa-circle-info"></i> Giải thích chi tiết
+              </button>
+              <button class="btn btn-gallery-zoom" onclick="openLightbox('img/price_by_district_boxplot.png', 'Biểu đồ hộp (Boxplot) Phân bố giá theo Quận')">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> Phóng to
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 7: OLS COEFFICIENTS -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap" onclick="openLightbox('img/ols_coefficients.png', 'Hệ số hồi quy Hedonic OLS (OLS Coefficients)')">
+              <img src="img/ols_coefficients.png" alt="Hệ số hồi quy OLS" loading="lazy" />
+              <div class="gallery-zoom-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Nhấp để phóng to</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-card-badge"><i class="fa-solid fa-scale-balanced"></i> Kinh tế lượng • Ý nghĩa thống kê</span>
+              <h4>Hệ số hồi quy Hedonic OLS (OLS Coefficients)</h4>
+              <p>Phân tích mức độ tác động của từng biến không gian và vị trí, làm nổi bật các biến có ý nghĩa thống kê (p &lt; 0.05).</p>
+            </div>
+            <div class="gallery-card-footer">
+              <button class="btn btn-gallery-detail" onclick="openGalleryDetail('ols_coef')">
+                <i class="fa-solid fa-circle-info"></i> Giải thích chi tiết
+              </button>
+              <button class="btn btn-gallery-zoom" onclick="openLightbox('img/ols_coefficients.png', 'Hệ số hồi quy Hedonic OLS (OLS Coefficients)')">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> Phóng to
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 8: MODEL COMPARISON R2 -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap" onclick="openLightbox('img/model_r2_comparison.png', 'So sánh độ phù hợp R² giữa OLS và Random Forest')">
+              <img src="img/model_r2_comparison.png" alt="So sánh R² giữa OLS và Random Forest" loading="lazy" />
+              <div class="gallery-zoom-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Nhấp để phóng to</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-card-badge"><i class="fa-solid fa-code-compare"></i> Đánh giá giải thuật • R² Score</span>
+              <h4>So sánh độ phù hợp R² giữa OLS và Random Forest</h4>
+              <p>So sánh năng lực giải thích giá giữa OLS (R² = 0.407) và Random Forest 5-fold CV (R² = 0.092) trên cỡ mẫu 121 tin.</p>
+            </div>
+            <div class="gallery-card-footer">
+              <button class="btn btn-gallery-detail" onclick="openGalleryDetail('model_r2')">
+                <i class="fa-solid fa-circle-info"></i> Giải thích chi tiết
+              </button>
+              <button class="btn btn-gallery-zoom" onclick="openLightbox('img/model_r2_comparison.png', 'So sánh độ phù hợp R² giữa OLS và Random Forest')">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> Phóng to
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Detail House Modal -->
+  <div class="modal-backdrop" id="house-detail-modal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="modal-house-title"><i class="fa-solid fa-house"></i> Chi tiết bất động sản</h3>
+        <button class="modal-close" id="btn-close-house-modal">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-house-body">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Help / Guide Modal -->
+  <div class="modal-backdrop" id="help-modal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-book-open"></i> Hướng Dẫn Sử Dụng Web GIS</h3>
+        <button class="modal-close" id="btn-close-help-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>1. Chức năng Bản đồ Không gian:</h4>
+        <p>• <strong>Xem vị trí nhà:</strong> Nhấp vào các điểm tròn trên bản đồ (màu sắc biểu diễn đơn giá/m²).</p>
+        <p>• <strong>Bật/tắt lớp tiện ích:</strong> Dùng thanh điều khiển bên trái để xem vị trí trường học, bệnh viện, hồ nước, trạm xe buýt,...</p>
+        <p>• <strong>Lớp nội suy IDW:</strong> Kéo thanh trượt độ mờ để so sánh bản đồ nhiệt giá đất với bản đồ giao thông bên dưới.</p>
+        <p>• <strong>Truy vấn bán kính (ST_DWithin):</strong> Chuyển sang thẻ "Bán kính", bấm kích hoạt rồi nhấp vào bất kỳ điểm nào trên bản đồ để tìm các nhà xung quanh.</p>
+        <h4 class="margin-top-12">2. Chức năng Phân tích Mô hình:</h4>
+        <p>• Trực quan hóa các biểu đồ hồi quy Hedonic, so sánh OLS vs Random Forest và bảng phân tích ý nghĩa các biến không gian.</p>
+        <h4 class="margin-top-12">3. Backend & Cơ sở dữ liệu:</h4>
+        <p>• Hỗ trợ 2 chế độ: kết nối trực tiếp PostgreSQL + PostGIS (ST_DWithin, ST_AsGeoJSON) hoặc tự động fallback sang cơ chế File-based GIS nếu PostgreSQL chưa khởi chạy.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- GALLERY DETAIL EXPLANATION MODAL -->
+  <div class="modal-backdrop" id="gallery-detail-modal">
+    <div class="modal-box gallery-modal-box">
+      <div class="modal-header">
+        <h3 id="gallery-detail-title"><i class="fa-solid fa-map"></i> Ý nghĩa & Phương pháp Bản đồ</h3>
+        <button class="modal-close" id="btn-close-gallery-detail">&times;</button>
+      </div>
+      <div class="modal-body" id="gallery-detail-body">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- IMAGE LIGHTBOX MODAL (ZOOM & PAN) -->
+  <div class="lightbox-modal" id="image-lightbox-modal">
+    <div class="lightbox-header">
+      <div class="lightbox-title-group">
+        <i class="fa-solid fa-map-location-dot" style="color: #38bdf8;"></i>
+        <span class="lightbox-title" id="lightbox-title">Bản đồ QGIS</span>
+      </div>
+      <div class="lightbox-toolbar">
+        <button class="lightbox-btn" id="btn-lightbox-zoomout" title="Thu nhỏ (-)">
+          <i class="fa-solid fa-minus"></i>
+        </button>
+        <span class="lightbox-zoom-val" id="lightbox-zoom-val">100%</span>
+        <button class="lightbox-btn" id="btn-lightbox-zoomin" title="Phóng to (+)">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+        <button class="lightbox-btn" id="btn-lightbox-reset" title="Tỷ lệ 100% (1:1)">
+          <i class="fa-solid fa-rotate-left"></i> 1:1
+        </button>
+        <button class="lightbox-btn btn-close-lightbox" id="btn-close-lightbox" title="Đóng (Esc)">
+          <i class="fa-solid fa-xmark"></i> Đóng
+        </button>
+      </div>
+    </div>
+    <div class="lightbox-viewport" id="lightbox-viewport">
+      <img src="" id="lightbox-img" class="lightbox-img" alt="Bản đồ phóng to" />
+      <div class="lightbox-hint">
+        <i class="fa-solid fa-hand-pointer"></i> Cuộn chuột để phóng to / thu nhỏ • Kéo chuột để di chuyển • Nhấn ESC để đóng
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaflet JS (Local with CDN fallback) -->
+  <script src="js/leaflet.js"></script>
+  <script>if (typeof L === 'undefined') document.write('<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"><\\/script>');</script>
+
+  <!-- Chart.js (Local with CDN fallback) -->
+  <script src="js/chart.umd.min.js"></script>
+  <script>if (typeof Chart === 'undefined') document.write('<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"><\\/script>');</script>
+
+  <!-- Custom Scripts -->
+  <script src="js/charts.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>

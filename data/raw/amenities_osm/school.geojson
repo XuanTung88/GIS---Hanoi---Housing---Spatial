@@ -1,0 +1,3507 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-10-23T10:01:13Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/159949213",
+        "addr:housenumber": "2",
+        "addr:street": "Phố Vĩnh Phúc",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Hoàng Hoa Thám",
+        "name:en": "Hoang Hoa Tham Primary School",
+        "name:etymology:wikidata": "Q1099845",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8105003,
+          21.0456555
+        ]
+      },
+      "id": "way/159949213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/179996741",
+        "addr:housenumber": "1",
+        "addr:street": "Ngõ 4C Đặng Văn Ngữ",
+        "amenity": "school",
+        "education": "school",
+        "email": "c3kimlien@hanoi.edu.vn",
+        "grades": "10-12",
+        "isced:level": "3",
+        "name": "Trường Trung học phổ thông Kim Liên",
+        "name:en": "Kim Lien High School",
+        "operator": "Sở Giáo dục và Đào tạo Hà Nội",
+        "operator:type": "public",
+        "phone": "+84 24 3852 2758",
+        "website": "http://thptkimlien-hanoi.edu.vn/",
+        "wikidata": "Q111025884",
+        "wikipedia": "vi:Trường Trung học phổ thông Kim Liên",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8316955,
+          21.0109326
+        ]
+      },
+      "id": "way/179996741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/179998403",
+        "addr:housenumber": "100",
+        "addr:street": "Ngõ 91 Phố Trần Quang Diệu",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Đống Đa (phân hiệu)",
+        "old_name": "Trường Trung học cơ sở Quang Trung",
+        "source": "grab_hanoi_2018_t2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8238772,
+          21.0137338
+        ]
+      },
+      "id": "way/179998403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180075247",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Tiểu học Nam Thành Công",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8099674,
+          21.0153495
+        ]
+      },
+      "id": "way/180075247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180082695",
+        "addr:housenumber": "28",
+        "addr:street": "Phố Lương Định Của",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "2",
+        "name": "Trưòng Trung học cơ sở Kim Liên",
+        "old_name": "Trường Trung học cơ sở Đống Đa",
+        "operator": "Ủy ban nhân dân phường Kim Liên",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8345499,
+          21.005471
+        ]
+      },
+      "id": "way/180082695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180085314",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Trưng Nhị",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8555095,
+          21.0114416
+        ]
+      },
+      "id": "way/180085314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180085316",
+        "addr:housenumber": "15",
+        "addr:street": "Phố Hương Viên",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung học phổ thông Trần Nhân Tông",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8568059,
+          21.0129761
+        ]
+      },
+      "id": "way/180085316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/194852647",
+        "addr:housenumber": "28",
+        "addr:street": "Ngõ 371 Đường La Thành",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Nguyễn Trường Tộ",
+        "name:en": "Nguyen Truong To Secondary School",
+        "name:etymology:wikidata": "Q7023005",
+        "operator": "Phòng Giáo dục và Đào tạo quận Đống Đa",
+        "operator:type": "public/government",
+        "website": "https://thcsnguyentruongto.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8204315,
+          21.0209307
+        ]
+      },
+      "id": "way/194852647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/199148845",
+        "addr:housenumber": "24",
+        "addr:street": "Phố Nguyễn Công Hoan",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Phan Chu Trinh",
+        "name:en": "Phan Chu Trinh Secondary School",
+        "name:etymology:wikidata": "Q2705303",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8142645,
+          21.0278909
+        ]
+      },
+      "id": "way/199148845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/220413224",
+        "addr:housenumber": "1",
+        "addr:street": "Phố Trần Huy Liệu",
+        "amenity": "school",
+        "education": "school",
+        "email": "c1kimdong-bd@hanoiedu.vn",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Kim Đồng",
+        "name:en": "Kim Dong Primary School",
+        "name:etymology:wikidata": "Q6408566",
+        "phone": "+84 24 3845 2179",
+        "website": "https://c1kimdong.giangvo.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8191535,
+          21.0299487
+        ]
+      },
+      "id": "way/220413224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/220413363",
+        "addr:housenumber": "1",
+        "addr:street": "Phố Trần Huy Liệu",
+        "amenity": "school",
+        "education": "school",
+        "email": "c2giangvo-bd@hanoiedu.vn",
+        "grades": "6-9",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Giảng Võ",
+        "phone": "+84 24 6295 6637",
+        "website": "https://c2giangvo.giangvo.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8219227,
+          21.0287901
+        ]
+      },
+      "id": "way/220413363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/220413364",
+        "addr:housenumber": "50",
+        "addr:street": "Phố Nam Cao",
+        "amenity": "school",
+        "education": "school",
+        "email": "c3nguyentrai@hanoiedu.vn",
+        "grades": "10-12",
+        "isced:level": "3",
+        "name": "Trường Trung học phổ thông Nguyễn Trãi - Ba Đình",
+        "name:etymology:wikidata": "Q1347181",
+        "operator": "Sở Giáo dục và Đào tạo Hà Nội",
+        "operator:type": "public",
+        "phone": "+84 24 3845 6680",
+        "source": "grab_hanoi_2018_t1",
+        "website": "https://thptnguyentrai-badinh.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8224835,
+          21.0292903
+        ]
+      },
+      "id": "way/220413364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223798539",
+        "addr:city": "Thành phố Hà Nội",
+        "addr:country": "VN",
+        "addr:district": "Quận Tây Hồ",
+        "addr:housenumber": "10",
+        "addr:postcode": "124302",
+        "addr:province": "Hà Nội",
+        "addr:street": "Đường Thụy Khuê",
+        "addr:subdistrict": "Phường Thụy Khuê",
+        "alt_name": "Trường Bưởi",
+        "amenity": "school",
+        "capacity": "2000",
+        "education": "school",
+        "email": "c3chuvanan@hanoiedu.vn",
+        "grades": "10-12",
+        "heritage": "2",
+        "name": "Trường Trung học phổ thông chuyên Chu Văn An",
+        "name:en": "Chu Van An High School for the Gifted",
+        "name:etymology:wikidata": "Q1155893",
+        "name:id": "SMP Chu Van An",
+        "name:zh": "朱文安高级中学",
+        "operator": "Sở Giáo dục và Đào tạo Hà Nội",
+        "operator:type": "government",
+        "phone": "+84-4-38233139",
+        "religion": "none",
+        "start_date": "1908",
+        "website": "https://c3chuvanan.edu.vn/",
+        "wheelchair": "limited",
+        "wikidata": "Q5115169",
+        "wikimedia_commons": "Category:Chu Văn An High School",
+        "wikipedia": "vi:Trường Trung học phổ thông Chu Văn An, Hà Nội",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8319542,
+          21.0431145
+        ]
+      },
+      "id": "way/223798539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/228036560",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Tây Sơn",
+        "name:etymology:wikidata": "Q1034173",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480096,
+          21.017305
+        ]
+      },
+      "id": "way/228036560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/354342236",
+        "addr:housenumber": "145",
+        "addr:street": "Đường Hoàng Hoa Thám",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Ngọc Hà",
+        "name:en": "Ngoc Ha Secondary School",
+        "old_name": "Trường Trung học cơ sở Ba Đình",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8247058,
+          21.0402194
+        ]
+      },
+      "id": "way/354342236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/500040428",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Tiểu học Thái Thịnh",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81653,
+          21.0120868
+        ]
+      },
+      "id": "way/500040428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/500040429",
+        "addr:housenumber": "131A",
+        "addr:street": "Phố Thái Thịnh",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung học cơ sở Thái Thịnh",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8160599,
+          21.0124417
+        ]
+      },
+      "id": "way/500040429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/521721142",
+        "addr:housenumber": "17",
+        "addr:street": "Đường Thụy Khuê",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Chu Văn An",
+        "name:etymology:wikidata": "Q1155893",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8327997,
+          21.0421351
+        ]
+      },
+      "id": "way/521721142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/549120240",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Thể thao Thiếu niên 10 tháng 10",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8231632,
+          21.0276945
+        ]
+      },
+      "id": "way/549120240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/570570399",
+        "addr:housenumber": "6",
+        "addr:street": "Phố Đặng Tiến Đông",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Đống Đa (cơ sở 2)",
+        "old_name": "Trường Tiểu học Quang Trung",
+        "source": "Grab_Hanoi_2018_T2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8234115,
+          21.0133384
+        ]
+      },
+      "id": "way/570570399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/570581703",
+        "addr:city": "Ha Noi",
+        "addr:district": "Hai Bà Trưng",
+        "addr:housenumber": "60",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Lê Đại Hành",
+        "addr:subdistrict": "Lê Đại Hành",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Tây Sơn",
+        "source": "grab_hanoi_2018_t2",
+        "website": "http://tieuhoctayson.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8468337,
+          21.0128779
+        ]
+      },
+      "id": "way/570581703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/593642477",
+        "addr:housenumber": "18",
+        "addr:street": "Đường Giải Phóng",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Khương Thượng (phân hiệu 1)",
+        "old_name": "Trường Trung học cơ sở Phương Mai",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.840153,
+          21.0059155
+        ]
+      },
+      "id": "way/593642477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/593642482",
+        "addr:city": "Hà Nội",
+        "addr:district": "Dong Da",
+        "addr:housenumber": "No6 - 4 alley",
+        "addr:street": "Phương Mai",
+        "addr:subdistrict": "Phuong Mai",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Tiểu học Phương Mai",
+        "operator": "Ủy ban nhân dân phường Kim Liên",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8395392,
+          21.0052225
+        ]
+      },
+      "id": "way/593642482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/691421444",
+        "addr:housenumber": "323",
+        "addr:street": "Ngõ Văn Chương",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Văn Miếu - Quốc Tử Giám",
+        "old_name": "Trường Tiểu học Văn Chương",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8380609,
+          21.0204528
+        ]
+      },
+      "id": "way/691421444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/697791076",
+        "addr:street": "Ngõ 167 Đội Cấn",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Ngọc Hà",
+        "name:en": "Ngoc Ha Primary School",
+        "old_name": "Trường Tiểu học Đại Yên",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8251437,
+          21.0358751
+        ]
+      },
+      "id": "way/697791076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/697791087",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:housenumber": "35",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Ngõ 55 Hoàng Hoa Thám",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Ngọc Hà",
+        "name:en": "Ngoc Ha Primary School",
+        "name:id": "SD Ngoc Ha",
+        "name:zh": "玉河小学",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8271504,
+          21.0384826
+        ]
+      },
+      "id": "way/697791087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/698018239",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:housenumber": "115",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Nguyễn Trường Tộ",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Việt Nam - Cuba",
+        "name:en": "Vietnam-Cuba Primary School",
+        "name:id": "SD Vietnam-Kuba",
+        "name:zh": "越南古巴小学",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8423656,
+          21.0432292
+        ]
+      },
+      "id": "way/698018239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/698018240",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:housenumber": "67",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Cửa Bắc",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Ba Đình (phân hiệu 1)",
+        "name:en": "Ba Dinh Secondary School (campus 1)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8428133,
+          21.0420367
+        ]
+      },
+      "id": "way/698018240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/698018241",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:housenumber": "30",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Phan Đình Phùng",
+        "amenity": "school",
+        "education": "school",
+        "grades": "10-12",
+        "name": "Trường Trung học phổ thông Phan Đình Phùng",
+        "name:en": "Phan Dinh Phung High School",
+        "name:etymology:wikidata": "Q5260210",
+        "name:id": "SMA Phan Dinh Phung",
+        "name:zh": "潘庭逢高中",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8428148,
+          21.0411904
+        ]
+      },
+      "id": "way/698018241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/698018271",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Nguyễn Tri Phương",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8382735,
+          21.0431978
+        ]
+      },
+      "id": "way/698018271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/698273225",
+        "addr:street": "Số 1 ngõ 294 Đội Cấn - Ba Đình - Hà Nôi",
+        "amenity": "school",
+        "education": "school",
+        "email": "gdtx-badinh@hanoiedu.vn",
+        "fax": "(024) 37629591",
+        "name": "Trung tâm Giáo dục nghề nghiệp-Giáo dục thường xuyên quận Ba Đình (cơ sở 3)",
+        "phone": "(024) 37629591",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8134935,
+          21.0376144
+        ]
+      },
+      "id": "way/698273225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/698676702",
+        "addr:street": "Ngõ 194 Đội Cấn",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Ngọc Hà (phân hiệu 2)",
+        "old_name": "Trường Tiểu học Vạn Phúc",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8232572,
+          21.0339111
+        ]
+      },
+      "id": "way/698676702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/698676704",
+        "addr:street": "Ngõ 218 Phố Đội Cấn",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Ngọc Hà (phân hiệu 2)",
+        "old_name": "Trường Trung học cơ sở Thống Nhất",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8206464,
+          21.0342925
+        ]
+      },
+      "id": "way/698676704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699905170",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Chu Văn An A",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8243131,
+          21.0428847
+        ]
+      },
+      "id": "way/699905170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699905193",
+        "addr:city": "Hà Nội",
+        "addr:district": "Tây Hồ",
+        "addr:housenumber": "260",
+        "addr:province": "Hà Nội",
+        "addr:street": "Thụy Khuê",
+        "addr:subdistrict": "Thụy Khuê",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Chu Văn An",
+        "name:etymology:wikidata": "Q1155893",
+        "name:vi": "Trường Tiểu học Chu Văn An",
+        "name:zh": "朱文安小学",
+        "religion": "none",
+        "website": "https://tieuhocchuvananhanoi.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8177123,
+          21.0438232
+        ]
+      },
+      "id": "way/699905193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700620998",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung học cơ sở Thanh Quan",
+        "name:en": "Thanh Quan Secondary School",
+        "name:etymology:wikidata": "Q5004765",
+        "name:id": "SMP Thanh Quan",
+        "name:zh": "青关初中",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.847426,
+          21.0377806
+        ]
+      },
+      "id": "way/700620998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700627455",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Tiểu học Kim Đồng",
+        "name:en": "Kim Dong Primary School",
+        "name:etymology:wikidata": "Q6408566",
+        "name:id": "SD Kim Dong",
+        "name:zh": "金童小学",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.851196,
+          21.0381757
+        ]
+      },
+      "id": "way/700627455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700627456",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:housenumber": "17",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Nguyễn Thiện Thuật",
+        "amenity": "school",
+        "name": "Trường Trung học cơ sở Lê Lợi",
+        "name:en": "Le Loi Secondary School",
+        "name:etymology:wikidata": "Q1195391",
+        "name:id": "SMP Le Loi",
+        "name:zh": "黎利初中",
+        "website": "http://thcsleloi.hoankiem.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.850954,
+          21.0378859
+        ]
+      },
+      "id": "way/700627456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700654150",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:housenumber": "23",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Nguyễn Trung Trực",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trung tâm Giáo dục nghề nghiệp-Giáo dục thường xuyên quận Ba Đình",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.847924,
+          21.0412233
+        ]
+      },
+      "id": "way/700654150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700671920",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:housenumber": "66",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Phó Đức Chính",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Ba Đình (phân hiệu 2)",
+        "name:en": "Ba Dinh Secondary School (campus 2)",
+        "old_name": "Trường Trung học cơ sở Mạc Đĩnh Chi",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.841464,
+          21.0483773
+        ]
+      },
+      "id": "way/700671920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700671922",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung học phổ thông Đinh Tiên Hoàng",
+        "name:etymology:wikidata": "Q1184365",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8431492,
+          21.0462858
+        ]
+      },
+      "id": "way/700671922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700671968",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:housenumber": "8",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Nguyễn Trường Tộ",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Ba Đình",
+        "name:en": "Ba Dinh Secondary School",
+        "old_name": "Trường Trung học cơ sở Nguyễn Công Trứ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8462964,
+          21.0424516
+        ]
+      },
+      "id": "way/700671968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700840694",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:housenumber": "2",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Chợ Gạo",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Trần Nhật Duật",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8528934,
+          21.0371403
+        ]
+      },
+      "id": "way/700840694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700840721",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:housenumber": "40",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Lãn Ông",
+        "amenity": "school",
+        "building": "yes",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Hồng Hà",
+        "name:en": "Hong Ha Primary School",
+        "name:id": "SD Hong Ha",
+        "name:zh": "红河小学",
+        "website": "http://thhongha.hoankiem.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8489159,
+          21.0358683
+        ]
+      },
+      "id": "way/700840721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700853402",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "25",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Lý Thái Tổ",
+        "addr:subdistrict": "Lý Thái Tổ",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Trưng Vương",
+        "name:en": "Trung Vuong Primary School",
+        "name:id": "SD Trung Vuong",
+        "name:zh": "征王小学",
+        "source": "grab_hanoi_2018_t1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8553814,
+          21.0303503
+        ]
+      },
+      "id": "way/700853402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/701882944",
+        "addr:housenumber": "2",
+        "addr:street": "Phố Nhà Thờ",
+        "amenity": "school",
+        "education": "school",
+        "email": "c2hoankiem-hk@hanoiedu.vn",
+        "name": "Trường Trung học cơ sở Hoàn Kiếm",
+        "name:en": "Hoan Kiem Secondary School",
+        "name:id": "SMP Hoan Kiem",
+        "name:zh": "还剑初中",
+        "phone": "+84 24 3825 6886",
+        "website": "http://hn-thcshoankiem.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8491047,
+          21.0283197
+        ]
+      },
+      "id": "way/701882944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/702456278",
+        "addr:housenumber": "104",
+        "addr:street": "Phố Nguyễn Khuyến",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "1;2",
+        "name": "Trường Tiểu học và Trung học cơ sở Lý Thường Kiệt",
+        "name:en": "Ly Thuong Kiet Primary and Secondary School",
+        "name:etymology:wikidata": "Q702734",
+        "name:id": "Sekolah Dasar dan Menengah Ly Thuong Kiet",
+        "name:zh": "李常杰小学和中学",
+        "operator": "Ủy ban nhân dân phường Văn Miếu - Quốc Tử Giám",
+        "operator:type": "public",
+        "phone": "+84 24 3747 3070;+84 24 3237 3893",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8385208,
+          21.0289517
+        ]
+      },
+      "id": "way/702456278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/703386682",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:housenumber": "20",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Ngõ Trạm",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Thăng Long",
+        "name:en": "Thang Long Primary School",
+        "wikidata": "Q116297155",
+        "wikimedia_commons": "Category:Thăng Long Primary School",
+        "wikipedia": "vi:Trường Tiểu học Thăng Long, Hà Nội",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8452161,
+          21.0307089
+        ]
+      },
+      "id": "way/703386682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704147268",
+        "addr:housenumber": "8",
+        "addr:street": "Phố Hai Bà Trưng",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung học phổ thông Trần Phú - Hoàn Kiếm",
+        "name:etymology:wikidata": "Q4507024",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8560191,
+          21.023767
+        ]
+      },
+      "id": "way/704147268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704147319",
+        "addr:housenumber": "39",
+        "addr:street": "Phố Quang Trung",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Quang Trung",
+        "name:etymology:wikidata": "Q379775",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8484031,
+          21.0202433
+        ]
+      },
+      "id": "way/704147319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704147365",
+        "addr:housenumber": "80",
+        "addr:street": "Phố Thợ Nhuộm",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Tiểu học Bình Minh",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8478061,
+          21.0232576
+        ]
+      },
+      "id": "way/704147365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704147371",
+        "addr:housenumber": "47",
+        "addr:street": "Phố Lý Thường Kiệt",
+        "amenity": "school",
+        "education": "school",
+        "grades": "10-12",
+        "name": "Trường Trung học phổ thông Việt Đức",
+        "name:en": "Viet Duc High School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8496923,
+          21.0228844
+        ]
+      },
+      "id": "way/704147371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704147378",
+        "addr:housenumber": "26",
+        "addr:street": "Phố Hàng Bài",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung học cơ sở Trưng Vương",
+        "name:en": "Trung Vuong Secondary School",
+        "name:id": "SMP Trung Vuong",
+        "name:zh": "征王初中",
+        "source": "grab_hanoi_2018_t1",
+        "wikidata": "Q10828934",
+        "wikimedia_commons": "Category:Trưng Vương Secondary School, Hanoi",
+        "wikipedia": "vi:Trường Trung học cơ sở Trưng Vương, Hà Nội",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85221,
+          21.0233315
+        ]
+      },
+      "id": "way/704147378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/802431699",
+        "addr:housenumber": "13",
+        "addr:street": "Ngõ 122 Đường Láng",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Thái Thịnh (phân hiệu)",
+        "old_name": "Trường Trung học cơ sở Thịnh Quang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8183252,
+          21.0052721
+        ]
+      },
+      "id": "way/802431699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/802431700",
+        "addr:housenumber": "11",
+        "addr:street": "Ngõ 122 Đường Láng",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Bế Văn Đàn (phân hiệu)",
+        "old_name": "Trường Tiểu học Thịnh Quang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8179498,
+          21.0050355
+        ]
+      },
+      "id": "way/802431700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/802433054",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "178",
+        "addr:street": "Đường Láng",
+        "addr:subdistrict": "Thịnh Quang",
+        "amenity": "school",
+        "education": "school",
+        "grades": "10-12",
+        "layer": "1",
+        "name": "Trường Trung học phổ thông Quang Trung - Đống Đa",
+        "name:etymology:wikidata": "Q379775",
+        "website": "http://thptquangtrungdongda.edu.vn/",
+        "wikipedia": "vi:Trường Trung học phổ thông Quang Trung – Đống Đa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8176706,
+          21.0057066
+        ]
+      },
+      "id": "way/802433054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/810475989",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "6",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Chùa Bộc",
+        "addr:subdistrict": "Quang Trung",
+        "amenity": "school",
+        "education": "school",
+        "layer": "1",
+        "name": "Trường Phổ thông Liên cấp TH School",
+        "operator": "TH Group",
+        "operator:type": "private",
+        "phone": "+84 91 938 22 55",
+        "website": "https://thschool.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8307349,
+          21.007324
+        ]
+      },
+      "id": "way/810475989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/812556568",
+        "addr:housenumber": "5",
+        "addr:street": "Phố Hoàng Tích Trí",
+        "amenity": "school",
+        "education": "school",
+        "email": "lienhethkimlien@gmail.com",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Kim Liên",
+        "name:en": "Kim Lien Primary School",
+        "operator": "Ủy ban nhân dân phường Kim Liên",
+        "operator:type": "public",
+        "phone": "+84 24 3852 7879",
+        "website": "https://tieuhockimlien.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8361607,
+          21.0076197
+        ]
+      },
+      "id": "way/812556568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/814971615",
+        "addr:street": "Phố Lương Định Của",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "1;2",
+        "name": "Hanoi Adelaide School",
+        "website": "https://has.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8344116,
+          21.0070908
+        ]
+      },
+      "id": "way/814971615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/817572203",
+        "addr:housenumber": "6",
+        "addr:street": "Ngõ 97 Phạm Ngọc Thạch",
+        "amenity": "school",
+        "description": "Nơi học tạm",
+        "education": "school",
+        "isced:level": "3",
+        "name": "Trường Trung học phổ thông Lê Quý Đôn - Đống Đa",
+        "operator": "Sở Giáo dục và Đào tạo Hà Nội",
+        "operator:type": "public",
+        "website": "http://thptlequydon-dd.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8336234,
+          21.0071168
+        ]
+      },
+      "id": "way/817572203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/821395351",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "8",
+        "addr:street": "Phố Tôn Thất Tùng",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Khương Thượng",
+        "name:en": "Khuong Thuong Primary School",
+        "operator": "Ủy ban nhân dân phường Kim Liên",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8302513,
+          21.0051721
+        ]
+      },
+      "id": "way/821395351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/821395352",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "10",
+        "addr:street": "Phố Tôn Thất Tùng",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Khương Thượng",
+        "name:en": "Khuong Thuong Secondary School",
+        "operator": "Ủy ban nhân dân phường Kim Liên",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8300163,
+          21.0045671
+        ]
+      },
+      "id": "way/821395352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/838059689",
+        "addr:housenumber": "11",
+        "addr:street": "Phố Xã Đàn",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Kim Liên A (phân hiệu 1)",
+        "old_name": "Trường Tiểu học Phương Liên",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.837117,
+          21.0103587
+        ]
+      },
+      "id": "way/838059689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/839655655",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "111",
+        "addr:province": "Hà Nội",
+        "addr:street": "Ngõ Xã Đàn 2",
+        "addr:subdistrict": "Nam Đồng",
+        "amenity": "school",
+        "barrier": "wall",
+        "education": "school",
+        "email": "c12xadan-dd@hanoiedu.vn",
+        "grades": "1-9",
+        "name": "Trường Phổ thông cơ sở Xã Đàn",
+        "phone": "+84 24 3572 5503",
+        "website": "https://ptcsxadanhanoi.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8314076,
+          21.0157739
+        ]
+      },
+      "id": "way/839655655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/839675219",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "3",
+        "addr:province": "Hà Nội",
+        "addr:street": "Ngõ 4A Đặng Văn Ngữ",
+        "addr:subdistrict": "Phương Liên – Trung Tự",
+        "amenity": "school",
+        "education": "school",
+        "email": "c1trungtu-dd@hanoiedu.vn",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Trung Tự",
+        "name:en": "Trung Tu Primary School",
+        "operator": "Ủy ban nhân dân phường Kim Liên",
+        "operator:type": "public",
+        "phone": "+84 24 3852 3685",
+        "start_date": "1975",
+        "website": "http://tieuhoctrungtu.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8327101,
+          21.0096835
+        ]
+      },
+      "id": "way/839675219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/839675223",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "5",
+        "addr:province": "Hà Nội",
+        "addr:street": "Ngõ 4A Đặng Văn Ngữ",
+        "addr:subdistrict": "Phương Liên – Trung Tự",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trung tâm Giáo dục nghề nghiệp - Giáo dục thường xuyên Đống Đa",
+        "website": "http://gdtxdongda.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8333495,
+          21.0100472
+        ]
+      },
+      "id": "way/839675223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/839899591",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hai Bà Trưng",
+        "addr:housenumber": "6",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Thái Phiên",
+        "addr:subdistrict": "Lê Đại Hành",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Bà Triệu",
+        "name:etymology:wikidata": "Q269989",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8504966,
+          21.0108388
+        ]
+      },
+      "id": "way/839899591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840066506",
+        "addr:housenumber": "2",
+        "addr:street": "Ngõ 14 Hồ Đắc Di",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Bế Văn Đàn",
+        "name:etymology:wikidata": "Q10743429",
+        "operator": "Ủy ban nhân dân phường Đống Đa",
+        "operator:type": "public",
+        "website": "http://tieuhocbevandan.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.828883,
+          21.0129551
+        ]
+      },
+      "id": "way/840066506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840066509",
+        "addr:housenumber": "181",
+        "addr:street": "Phố Nguyễn Lương Bằng",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Đống Đa",
+        "old_name": "Trường Trung học cơ sở Bế Văn Đàn",
+        "operator": "Ủy ban nhân dân phường Đống Đa",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.829101,
+          21.0139097
+        ]
+      },
+      "id": "way/840066509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840439575",
+        "addr:housenumber": "9",
+        "addr:street": "Phố Ô Chợ Dừa",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Đống Đa",
+        "old_name": "Trường Tiểu học Thịnh Hào",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8287048,
+          21.0186558
+        ]
+      },
+      "id": "way/840439575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840583721",
+        "addr:housenumber": "193",
+        "addr:street": "Phố Bà Triệu",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Vân Hồ",
+        "website": "http://thcsvanhohbt.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8494822,
+          21.0094054
+        ]
+      },
+      "id": "way/840583721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840613321",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hai Bà Trưng",
+        "addr:housenumber": "74",
+        "addr:province": "Hà Nội",
+        "addr:street": "Ngõ 40 Tạ Quang Bửu",
+        "addr:subdistrict": "Phường Bách Khoa",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Lê Văn Tám",
+        "phone": "+842438692107",
+        "website": "http://tieuhoclevantam-hbt.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8454575,
+          21.0030341
+        ]
+      },
+      "id": "way/840613321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840803798",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hai Bà Trưng",
+        "addr:housenumber": "15",
+        "addr:street": "Bùi Ngọc Dương",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trung tâm Giáo dục nghề nghiệp - Giáo dục thường xuyên quận Hai Bà Trưng",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8544565,
+          21.0019473
+        ]
+      },
+      "id": "way/840803798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/852423760",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hai Bà Trưng",
+        "addr:housenumber": "9",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Hoà Mã",
+        "addr:subdistrict": "Ngô Thì Nhậm",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Ngô Thì Nhậm",
+        "name:etymology:wikidata": "Q1155621",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8539074,
+          21.0150327
+        ]
+      },
+      "id": "way/852423760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/858190901",
+        "addr:housenumber": "27",
+        "addr:street": "Đường Đại Cồ Việt",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Tô Hoàng",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8497129,
+          21.0081374
+        ]
+      },
+      "id": "way/858190901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/858190902",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hai Bà Trưng",
+        "addr:housenumber": "29",
+        "addr:province": "Hà Nội",
+        "addr:street": "Đường Đại Cồ Việt",
+        "addr:subdistrict": "Cầu Dền",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Tô Hoàng",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8493084,
+          21.0079557
+        ]
+      },
+      "id": "way/858190902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/860064004",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Ngô Gia Tự",
+        "name:etymology:wikidata": "Q10800337",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8500913,
+          21.0020476
+        ]
+      },
+      "id": "way/860064004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/860294716",
+        "addr:housenumber": "10",
+        "addr:street": "Ngõ Quan Thổ 1",
+        "amenity": "school",
+        "education": "school",
+        "grades": "10-12",
+        "name": "Trường Trung học phổ thông Đống Đa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8295492,
+          21.0220103
+        ]
+      },
+      "id": "way/860294716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/860294717",
+        "addr:housenumber": "6",
+        "addr:street": "Ngõ Quan Thổ 1",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Cát Linh - Phân hiệu Tô Vĩnh Diện",
+        "old_name": "Trường Tiểu học Tô Vĩnh Diện",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8303053,
+          21.0215012
+        ]
+      },
+      "id": "way/860294717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/860294721",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Văn Miếu - Quốc Tử Giám (phân hiệu 1)",
+        "old_name": "Trường Tiểu học La Thành",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.834876,
+          21.0171701
+        ]
+      },
+      "id": "way/860294721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/871887393",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Thành Công A",
+        "name:en": "Thanh Cong A Primary School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8128485,
+          21.0229472
+        ]
+      },
+      "id": "way/871887393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/875680699",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Thành Công",
+        "name:en": "Thanh Cong Secondary School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8135161,
+          21.023023
+        ]
+      },
+      "id": "way/875680699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/875680716",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Thành Công B",
+        "name:en": "Thanh Cong B Primary School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8160937,
+          21.0207754
+        ]
+      },
+      "id": "way/875680716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/884063651",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Tiểu học Vietkids",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8279668,
+          21.0178963
+        ]
+      },
+      "id": "way/884063651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888367921",
+        "addr:housenumber": "20",
+        "addr:street": "Phố Nguyễn Công Hoan",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu hoc Ngọc Khánh",
+        "name:en": "Ngoc Khanh Primary School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8149584,
+          21.0278754
+        ]
+      },
+      "id": "way/888367921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/891419018",
+        "addr:housenumber": "51",
+        "addr:street": "Phố Thi Sách",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Lê Ngọc Hân (Cơ sở Thi Sách)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8547936,
+          21.0151131
+        ]
+      },
+      "id": "way/891419018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/892577220",
+        "amenity": "school",
+        "education": "school",
+        "level": "0",
+        "name": "Trường Quốc tế Anh Việt Hà Nội",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8165474,
+          21.0021183
+        ]
+      },
+      "id": "way/892577220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/899388705",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Quỳnh Mai",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8590625,
+          21.0017471
+        ]
+      },
+      "id": "way/899388705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/899388706",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Quỳnh Mai",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8594974,
+          21.0017783
+        ]
+      },
+      "id": "way/899388706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/903424416",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Trưng Trắc",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8550225,
+          21.0114631
+        ]
+      },
+      "id": "way/903424416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/909125235",
+        "addr:housenumber": "31A",
+        "addr:street": "Phố Cát Linh",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Cát Linh",
+        "phone": "+84 24 3823 6254",
+        "website": "http://www.catlinhschool.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8293321,
+          21.0282567
+        ]
+      },
+      "id": "way/909125235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/909125236",
+        "addr:housenumber": "31",
+        "addr:street": "Phố Cát Linh",
+        "amenity": "school",
+        "education": "school",
+        "email": "c2catlinh-dd@hanoiedu.vn",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Cát Linh",
+        "phone": "+84 24 3843 4473",
+        "website": "https://thcscatlinh.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8293613,
+          21.0287284
+        ]
+      },
+      "id": "way/909125236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/914593366",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:housenumber": "40-42",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Nguyễn Thái Học",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Phan Chu Trinh",
+        "name:en": "Phan Chu Trinh Primary School",
+        "name:etymology:wikidata": "Q2705303",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8392583,
+          21.0297538
+        ]
+      },
+      "id": "way/914593366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/916879500",
+        "addr:housenumber": "4",
+        "addr:street": "Ngõ 149 phố Khương Thượng",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Phương Mai (phân hiệu)",
+        "old_name": "Trường Tiểu học Tam Khương",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8255106,
+          21.003386
+        ]
+      },
+      "id": "way/916879500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/916879506",
+        "addr:housenumber": "163",
+        "addr:street": "Phố Khương Thượng",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Khương Thượng (phân hiệu 2)",
+        "old_name": "Trường Trung học cơ sở Tam Khương",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8250871,
+          21.0038195
+        ]
+      },
+      "id": "way/916879506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/925420445",
+        "addr:housenumber": "149",
+        "addr:street": "Phố Trích Sài",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Đông Thái",
+        "website": "http://thcsdongthaitayho.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8127354,
+          21.0507202
+        ]
+      },
+      "id": "way/925420445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/926276869",
+        "addr:housenumber": "46A",
+        "addr:street": "Phố Nguyễn Văn Ngọc",
+        "amenity": "school",
+        "education": "school",
+        "email": "c2thanglong-bd@hanoiedu.vn",
+        "name": "Trường Trung học cơ sở Thăng Long",
+        "phone": "+84 2437664592",
+        "website": "https://c2thanglong.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8107274,
+          21.0328418
+        ]
+      },
+      "id": "way/926276869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/926276871",
+        "addr:housenumber": "1",
+        "addr:street": "Phố Nguyễn Văn Ngọc",
+        "amenity": "school",
+        "education": "school",
+        "grades": "10-12",
+        "name": "Trường Trung học phổ thông Phạm Hồng Thái",
+        "name:en": "Pham Hong Thai High School",
+        "name:etymology:wikidata": "Q988310",
+        "name:ja": "ファムホンタイ高校",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8118853,
+          21.0336773
+        ]
+      },
+      "id": "way/926276871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/926276872",
+        "addr:city": "Hà Nội",
+        "addr:district": "Ba Đình",
+        "addr:housenumber": "48",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Liễu Giai",
+        "addr:subdistrict": "Cống Vị",
+        "amenity": "school",
+        "education": "school",
+        "grades": "0-12",
+        "name": "Hanoi International School",
+        "name:ja": "ハノイインターナショナルスクール",
+        "name:vi": "Trường Quốc tế Hà Nội",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8130385,
+          21.033744
+        ]
+      },
+      "id": "way/926276872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/926276873",
+        "addr:housenumber": "50",
+        "addr:street": "Phố Liễu Giai",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-12",
+        "name": "Trường Tiểu học, Trung học cơ sở và Trung học phổ thông Thực nghiệm Khoa học Giáo dục",
+        "name:en": "Thuc Nghiem School",
+        "website": "https://thucnghiem.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8128265,
+          21.0330584
+        ]
+      },
+      "id": "way/926276873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/939606845",
+        "addr:housenumber": "85",
+        "addr:street": "Phố Lương Định Của",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung học phổ thông Phùng Khắc Khoan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8364415,
+          21.0025938
+        ]
+      },
+      "id": "way/939606845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/939977280",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung học cơ sở Láng Hạ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8101847,
+          21.0124655
+        ]
+      },
+      "id": "way/939977280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/939977304",
+        "addr:housenumber": "38",
+        "addr:street": "Ngõ 218 Ngõ Chợ Khâm Thiên",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Văn Miếu - Quốc Tử Giám",
+        "old_name": "Trường Trung học cơ sở Trung Phụng",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8367257,
+          21.0155713
+        ]
+      },
+      "id": "way/939977304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/939977306",
+        "addr:housenumber": "97",
+        "addr:street": "Ngõ 218 Ngõ Chợ Khâm Thiên",
+        "amenity": "school",
+        "education": "school",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Văn Miếu - Quốc Tử Giám (phân hiệu 2)",
+        "old_name": "Trường Tiểu học Trung Phụng",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8362269,
+          21.0156076
+        ]
+      },
+      "id": "way/939977306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/940668398",
+        "addr:housenumber": "145",
+        "addr:street": "Đường Hoàng Hoa Thám",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Ngọc Hà (phân hiệu 1)",
+        "name:en": "Ngoc Ha Primary School (campus 1)",
+        "old_name": "Trường Tiểu học Ba Đình",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8242035,
+          21.040369
+        ]
+      },
+      "id": "way/940668398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/940668409",
+        "addr:housenumber": "25",
+        "addr:street": "Phố Giang Văn Minh",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Nguyễn Trãi",
+        "name:en": "Nguyen Trai Secondary School",
+        "name:etymology:wikidata": "Q1347181",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8264612,
+          21.0309354
+        ]
+      },
+      "id": "way/940668409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/940668415",
+        "addr:housenumber": "2",
+        "addr:street": "Phố An Xá",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Phúc Xá",
+        "name:en": "Phuc Xa Secondary School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8497221,
+          21.0462504
+        ]
+      },
+      "id": "way/940668415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/940668417",
+        "addr:housenumber": "55",
+        "addr:street": "Phố Nghĩa Dũng",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Nghĩa Dũng",
+        "name:en": "Nghia Dung Primary School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8470353,
+          21.0482603
+        ]
+      },
+      "id": "way/940668417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/940679286",
+        "addr:housenumber": "46",
+        "addr:street": "Phố Liễu Giai",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Nguyễn Bá Ngọc",
+        "name:en": "Nguyen Ba Ngoc Primary School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8135554,
+          21.0342825
+        ]
+      },
+      "id": "way/940679286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/940892132",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Đoàn Kết",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8542572,
+          21.0099149
+        ]
+      },
+      "id": "way/940892132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/944300305",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Tiểu học Lê Ngọc Hân",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8565023,
+          21.0169265
+        ]
+      },
+      "id": "way/944300305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/944300308",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Minh Khai",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8523549,
+          21.0044998
+        ]
+      },
+      "id": "way/944300308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/944300314",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Đoàn Kết",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8542271,
+          21.010273
+        ]
+      },
+      "id": "way/944300314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/944300333",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Minh Khai",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8599595,
+          21.0065206
+        ]
+      },
+      "id": "way/944300333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/944300346",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Đồng Nhân",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.860235,
+          21.0106854
+        ]
+      },
+      "id": "way/944300346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/953737977",
+        "addr:housenumber": "105",
+        "addr:street": "Vọng Hà",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Chương Dương",
+        "website": "http://thcschuongduong.hoankiem.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.858133,
+          21.0300569
+        ]
+      },
+      "id": "way/953737977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/953737979",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "140",
+        "addr:province": "Hà Nội",
+        "addr:street": "Vọng Hà",
+        "addr:subdistrict": "Chương Dương Độ",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Chương Dương",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8578567,
+          21.0299022
+        ]
+      },
+      "id": "way/953737979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/953737981",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "236",
+        "addr:street": "Đường Bạch Đằng",
+        "addr:subdistrict": "Chương Dương Độ",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Chương Dương (khu B)",
+        "website": "http://thchuongduong.hoankiem.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8612253,
+          21.0268887
+        ]
+      },
+      "id": "way/953737981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/953737982",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "44",
+        "addr:street": "Phố Quán Sứ",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Điện Biên",
+        "website": "http://thdienbien.haonkiem.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8459814,
+          21.0284454
+        ]
+      },
+      "id": "way/953737982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/953737984",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:housenumber": "11",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Hàng Tre",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Nguyễn Du",
+        "website": "http://thnguyendu.hoankiem.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.855281,
+          21.033364
+        ]
+      },
+      "id": "way/953737984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/953737985",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "12",
+        "addr:street": "Phố Phúc Tân",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Phúc Tân",
+        "website": "http://thphuctan.hoankiem.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8532142,
+          21.0386063
+        ]
+      },
+      "id": "way/953737985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/957452589",
+        "addr:housenumber": "17",
+        "addr:street": "Ngõ 134 Quan Nhân",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Nhân Chính",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8107,
+          21.005924
+        ]
+      },
+      "id": "way/957452589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/957452591",
+        "addr:city": "Hà Nội",
+        "addr:district": "Thanh Xuân",
+        "addr:housenumber": "10",
+        "addr:street": "Ngõ 181 Quan Nhân",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Nhân Chính",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8117801,
+          21.0021541
+        ]
+      },
+      "id": "way/957452591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/963227376",
+        "addr:housenumber": "27-29",
+        "addr:street": "Phố Hàm Long",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "name": "Trường Trung học cơ sở Ngô Sĩ Liên",
+        "name:etymology:wikidata": "Q716585",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8525094,
+          21.0191077
+        ]
+      },
+      "id": "way/963227376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066700474",
+        "addr:housenumber": "73",
+        "addr:street": "Đường Nguyễn Chí Thanh",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung cấp Kỹ thuật - Tin học Hà Nội",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8109119,
+          21.0236583
+        ]
+      },
+      "id": "way/1066700474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066700497",
+        "addr:housenumber": "56",
+        "addr:street": "Phố Khâm Thiên",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung cấp nghề Nấu ăn - Nghiệp vụ Du lịch và Thời trang Hà Nội",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8385902,
+          21.0192947
+        ]
+      },
+      "id": "way/1066700497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066700505",
+        "addr:housenumber": "6",
+        "addr:street": "Ngõ Lệnh Cư",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung cấp nghề Kỹ thuật Nấu ăn - Nghiệp vụ Du lịch và Thời trang Hà Nội (cơ sở 2)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8359502,
+          21.0186308
+        ]
+      },
+      "id": "way/1066700505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066700507",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung cấp Xây dựng Hà Nội",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8450192,
+          21.0496136
+        ]
+      },
+      "id": "way/1066700507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066839456",
+        "addr:housenumber": "102",
+        "addr:street": "Phố Tân Ấp",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung cấp Kinh tế - Kỹ thuật và Công nghệ Hà Nội (cơ sở 2)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8479531,
+          21.0468362
+        ]
+      },
+      "id": "way/1066839456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1082236842",
+        "addr:housenumber": "94A",
+        "addr:street": "Phố Lê Thanh Nghị",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-12",
+        "name": "Trường Trung học cơ sở & Trung học phổ thông Tạ Quang Bửu",
+        "operator": "BKHoldings",
+        "operator:type": "private",
+        "website": "https://www.taquangbuu-bk.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465688,
+          21.0026516
+        ]
+      },
+      "id": "way/1082236842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1182274034",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:housenumber": "9A",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Phạm Hồng Thái",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "name": "Trường Tiểu học Nguyễn Trung Trực",
+        "name:en": "Nguyen Trung Truc Primary School",
+        "name:etymology:wikidata": "Q7023003",
+        "website": "https://c1nguyentrungtruc.badinh.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8463077,
+          21.042969
+        ]
+      },
+      "id": "way/1182274034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1185863352",
+        "addr:housenumber": "3",
+        "addr:street": "Phố Hoàng Tích Trí",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-5",
+        "isced:level": "1",
+        "name": "Trường Tiểu học Kim Liên A",
+        "old_name": "Trường Tiểu học Đống Đa",
+        "operator": "Ủy ban nhân dân phường Kim Liên",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.836559,
+          21.0079418
+        ]
+      },
+      "id": "way/1185863352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1198548273",
+        "amenity": "school",
+        "building": "school",
+        "building:levels": "4",
+        "education": "school",
+        "name": "Trường Trung học BVIS Secondary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8150083,
+          21.0015438
+        ]
+      },
+      "id": "way/1198548273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1212235271",
+        "amenity": "school",
+        "education": "school",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8538406,
+          21.0395113
+        ]
+      },
+      "id": "way/1212235271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1212917309",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Tiểu học Nguyễn Bá Ngọc",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8496262,
+          21.0324142
+        ]
+      },
+      "id": "way/1212917309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1280512697",
+        "amenity": "school",
+        "education": "school",
+        "grades": "1-9",
+        "name": "Trường Tiểu học, Trung học cơ sở Vinschool Metropolis",
+        "name:en": "Vinschool Metropolis Primary and Secondary",
+        "website": "https://vinschool.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.815026,
+          21.0321533
+        ]
+      },
+      "id": "way/1280512697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1317395355",
+        "addr:housenumber": "12",
+        "addr:street": "Ngách 79 Ngõ Cẩm Vân",
+        "amenity": "school",
+        "education": "school",
+        "grades": "6-9",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Cát Linh - Phân hiệu Tô Vĩnh Diện",
+        "old_name": "Trường Trung học cơ sở Tô Vĩnh Diện",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8283985,
+          21.0217198
+        ]
+      },
+      "id": "way/1317395355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1459844800",
+        "addr:housenumber": "1B",
+        "addr:street": "Phố Trần Huy Liệu",
+        "amenity": "school",
+        "education": "school",
+        "email": "c2giangvo2-bd@hanoiedu.vn",
+        "grades": "6-9",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Giảng Võ 2",
+        "phone": "+84 886 995 511",
+        "website": "https://c2giangvo2.giangvo.edu.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8221463,
+          21.028335
+        ]
+      },
+      "id": "way/1459844800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1504279088",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:housenumber": "44-46",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Hàng Quạt",
+        "amenity": "school",
+        "email": "c2nguyendu-hk@hanoiedu.vn",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Nguyễn Du",
+        "name:etymology:wikidata": "Q313322",
+        "phone": "+84 24 3824 1724",
+        "website": "http://thcsnguyendu.hoankiem.edu.vn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.848871,
+          21.0331473
+        ]
+      },
+      "id": "way/1504279088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1508984300",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:housenumber": "18",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Hàng Khoai",
+        "amenity": "school",
+        "isced:level": "2",
+        "name": "Trường Trung học cơ sở Lê Lợi",
+        "name:etymology:wikidata": "Q1195391",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8501429,
+          21.0392338
+        ]
+      },
+      "id": "way/1508984300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4183538421",
+        "amenity": "school",
+        "education": "school",
+        "name": "Vietnamese class"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8222128,
+          21.0386664
+        ]
+      },
+      "id": "node/4183538421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4484956794",
+        "addr:country": "VN",
+        "addr:housenumber": "72A, R2",
+        "addr:street": "Đường Nguyễn Trãi",
+        "amenity": "school",
+        "education": "school",
+        "name:en": "American Preschool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8153673,
+          21.003661
+        ]
+      },
+      "id": "node/4484956794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4486357290",
+        "addr:country": "VN",
+        "addr:housenumber": "3",
+        "addr:street": "Phó Thành Công",
+        "amenity": "school",
+        "education": "school",
+        "name:en": "EIV Office"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8162135,
+          21.0197872
+        ]
+      },
+      "id": "node/4486357290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4505332089",
+        "addr:country": "VN",
+        "addr:housenumber": "4",
+        "addr:street": "Phố Ngọc Khánh",
+        "amenity": "school",
+        "education": "school",
+        "name:en": "Cover School 17.11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8182466,
+          21.0272011
+        ]
+      },
+      "id": "node/4505332089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4531553592",
+        "addr:country": "VN",
+        "addr:housenumber": "10/49",
+        "addr:street": "Ngõ Quan Thổ 1",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trung Tâm Fablab Hanoi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.830619,
+          21.0237687
+        ]
+      },
+      "id": "node/4531553592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4755943818",
+        "amenity": "school",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8553045,
+          21.0336787
+        ]
+      },
+      "id": "node/4755943818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5398016422",
+        "addr:street": "Ngõ 131 Thái Hà",
+        "amenity": "school",
+        "education": "school",
+        "name": "Tiếng Trung Cầm Xu - cs2",
+        "name:en": "Camxu Eduction 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8187317,
+          21.0127184
+        ]
+      },
+      "id": "node/5398016422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9593574430",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung học cơ sở Tô Hiến Thành"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8277592,
+          21.017939
+        ]
+      },
+      "id": "node/9593574430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11521920513",
+        "amenity": "school",
+        "education": "school",
+        "name": "Toán Trí Tuệ Superbrain Ba đình"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8107149,
+          21.0371542
+        ]
+      },
+      "id": "node/11521920513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11843102682",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:housenumber": "52",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Hàng Điếu",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Mầm Non Hoa Hồng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8469715,
+          21.0326597
+        ]
+      },
+      "id": "node/11843102682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12513712433",
+        "addr:street": "Phố Chương Dương Độ",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung học phổ thông Đinh Tiên Hoàng - Ba Đình (Phố Chương Dương Độ)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.859018,
+          21.0292067
+        ]
+      },
+      "id": "node/12513712433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12552981505",
+        "addr:housenumber": "290",
+        "addr:street": "phố Tây Sơn, quận Đống Đa, thành phố Hà Nội",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Trung học phổ thông Anhxtanh Hà Nội"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8223842,
+          21.0074703
+        ]
+      },
+      "id": "node/12552981505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12633497362",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:housenumber": "109",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Hàng Buồm",
+        "amenity": "school",
+        "education": "school",
+        "name": "Trường Tiểu học Hồng Hà"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8504505,
+          21.0353965
+        ]
+      },
+      "id": "node/12633497362"
+    }
+  ]
+}

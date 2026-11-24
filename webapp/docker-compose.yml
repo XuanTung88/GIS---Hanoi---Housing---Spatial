@@ -1,0 +1,21 @@
+# Docker Compose cho riêng dự án GIS (Tùy chọn dành cho ai dùng Docker)
+# Khởi chạy một PostgreSQL + PostGIS hoàn toàn cô lập, không ảnh hưởng tới máy chủ hiện có
+version: '3.8'
+
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: postgis_detai_gis
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: detai_gis
+    ports:
+      # Ánh xạ ra cổng 5433 của máy thật để tránh trùng với cổng 5432 nếu máy đã có Postgres
+      - "5433:5432"
+    volumes:
+      - postgis_detai_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgis_detai_data:

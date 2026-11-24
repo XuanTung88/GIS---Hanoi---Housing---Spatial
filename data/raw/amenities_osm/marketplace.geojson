@@ -1,0 +1,737 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-10-23T10:16:24Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28847036",
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Chợ Hàng Da",
+        "name:en": "Hang Da Galleria",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8463475,
+          21.0314567
+        ]
+      },
+      "id": "way/28847036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244102704",
+        "amenity": "marketplace",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8266546,
+          21.0364197
+        ]
+      },
+      "id": "way/244102704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/698273221",
+        "amenity": "marketplace",
+        "landuse": "retail",
+        "name": "Chợ Cống Vị",
+        "name:en": "Cong Vi Marketplace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8144196,
+          21.037261
+        ]
+      },
+      "id": "way/698273221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699905182",
+        "amenity": "marketplace",
+        "building": "retail",
+        "name": "Chợ Tam Đa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8189366,
+          21.0430985
+        ]
+      },
+      "id": "way/699905182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700627459",
+        "amenity": "marketplace",
+        "building": "yes",
+        "landuse": "retail",
+        "name": "Chợ Cầu Đông",
+        "name:en": "Cau Dong Market",
+        "name:fr": "Marché de Cau Dong",
+        "name:id": "Pasar Cau Dong",
+        "name:zh": "桥东市场",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8503815,
+          21.0379258
+        ]
+      },
+      "id": "way/700627459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/700671941",
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Chợ Châu Long",
+        "name:en": "Chau Long Market",
+        "name:id": "Pasar Chau Long",
+        "name:zh": "珠龙市场",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8418833,
+          21.0439455
+        ]
+      },
+      "id": "way/700671941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/702456227",
+        "amenity": "marketplace",
+        "landuse": "retail",
+        "name": "Chợ Ngô Sĩ Liên",
+        "name:en": "Ngo Si Lien Market",
+        "name:id": "Pasar Ngo Si Lien",
+        "name:zh": "吴士连市场",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8392143,
+          21.0270923
+        ]
+      },
+      "id": "way/702456227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704159193",
+        "amenity": "marketplace",
+        "landuse": "retail",
+        "name": "Chợ Ngọc Lâm",
+        "name:en": "Ngoc Lam Market",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8649236,
+          21.0435767
+        ]
+      },
+      "id": "way/704159193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840803809",
+        "amenity": "marketplace",
+        "name": "Chợ Ngã Tư Sở",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8183919,
+          21.0026637
+        ]
+      },
+      "id": "way/840803809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840867180",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Lương Định Của",
+        "addr:subdistrict": "Kim Liên",
+        "amenity": "marketplace",
+        "name": "Chợ Kim Liên",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8355452,
+          21.0060492
+        ]
+      },
+      "id": "way/840867180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/885744701",
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Chợ Thượng Đình",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8122776,
+          20.9982371
+        ]
+      },
+      "id": "way/885744701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888367936",
+        "amenity": "marketplace",
+        "name": "Chợ Khương Thượng",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8313907,
+          21.0055499
+        ]
+      },
+      "id": "way/888367936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/899388714",
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Chợ Quỳnh Mai",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8612738,
+          20.9991155
+        ]
+      },
+      "id": "way/899388714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/930229621",
+        "amenity": "marketplace",
+        "name": "Chợ Long Biên",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8510404,
+          21.0414282
+        ]
+      },
+      "id": "way/930229621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/943911446",
+        "amenity": "marketplace",
+        "name": "Chợ Thái Hà",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8227268,
+          21.0139879
+        ]
+      },
+      "id": "way/943911446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1063191459",
+        "addr:city": "Hà Nội",
+        "addr:district": "Ba Đình",
+        "addr:housenumber": "53",
+        "addr:postcode": "100000",
+        "addr:province": "Hà Nội",
+        "addr:street": "P. Linh Lang",
+        "addr:subdistrict": "Cống Vị",
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Chợ Linh Lang",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8103342,
+          21.0342446
+        ]
+      },
+      "id": "way/1063191459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1212230635",
+        "amenity": "marketplace",
+        "landuse": "retail",
+        "name": "Chợ Đồng Xuân",
+        "name:en": "Dong Xuan Market",
+        "name:es": "Mercado Dong Xuan",
+        "name:fr": "Le marché de Dong Xuan",
+        "name:id": "Pasar Dong Xuan",
+        "name:ja": "ドンスアン市場",
+        "name:ko": "동 쑤언 시장",
+        "name:ms": "Pasar Dong Xuan",
+        "name:th": "ตลาดด่งซวน",
+        "name:tr": "Dong Xuan Pazarı",
+        "name:vi": "Chợ Đồng Xuân",
+        "name:vi-Hani": "𢄂同春",
+        "name:zh": "同春市场",
+        "name:zh-Hans": "同春市场",
+        "name:zh-Hant": "同春市場",
+        "opening_hours": "Mo-Su 06:00-19:00",
+        "wikidata": "Q1094375",
+        "wikipedia": "vi:Chợ Đồng Xuân",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8496735,
+          21.0382416
+        ]
+      },
+      "id": "way/1212230635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1213883582",
+        "amenity": "marketplace",
+        "landuse": "retail",
+        "name": "Chợ Nghĩa Đô",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8076723,
+          21.0519642
+        ]
+      },
+      "id": "way/1213883582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1301719963",
+        "amenity": "marketplace",
+        "name": "Chợ Ngọc Hà",
+        "name:en": "Ngoc Ha Marketplace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.831597,
+          21.0337197
+        ]
+      },
+      "id": "way/1301719963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1451711146",
+        "addr:housenumber": "22",
+        "addr:street": "Ngách 20 Ngõ Trại Cá",
+        "amenity": "marketplace",
+        "barrier": "wall",
+        "name": "Chợ Đồng Tâm",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8461885,
+          20.9951044
+        ]
+      },
+      "id": "way/1451711146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1497353878",
+        "amenity": "marketplace",
+        "name": "Chợ Láng Hạ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8078413,
+          21.0135017
+        ]
+      },
+      "id": "way/1497353878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1529746177",
+        "amenity": "marketplace",
+        "building": "commercial",
+        "name": "Chợ Hoàng Mai",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8532715,
+          20.9910937
+        ]
+      },
+      "id": "way/1529746177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1541314407",
+        "amenity": "marketplace",
+        "name": "Chợ Thành Công B",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8150901,
+          21.0224609
+        ]
+      },
+      "id": "way/1541314407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2290037023",
+        "amenity": "marketplace",
+        "name:en": "Book Market and Cafes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8479567,
+          21.0250151
+        ]
+      },
+      "id": "node/2290037023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3389007927",
+        "amenity": "marketplace",
+        "name": "Chợ Nhân Chính"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8093027,
+          20.9983875
+        ]
+      },
+      "id": "node/3389007927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4489385889",
+        "addr:street": "Hàng Đào",
+        "amenity": "marketplace",
+        "name": "Chợ Đêm Hàng Đào – Đồng Xuân",
+        "name:en": "Hanoi Weekend Night Market",
+        "name:fr": "Marché de nuit d'Hanoi",
+        "name:ko": "하노이 야시장",
+        "name:zh": "河内夜市",
+        "opening_hours": "Fr-Su 18:00-00:00",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8509571,
+          21.0335078
+        ]
+      },
+      "id": "node/4489385889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4572907889",
+        "addr:city": "Hà Nội",
+        "amenity": "marketplace",
+        "name": "Chợ Đêm",
+        "name:de": "Nachtmarkt",
+        "name:en": "Night Market",
+        "name:zh": "夜市",
+        "opening_hours": "Fr-Su 19:00-22:00",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8523763,
+          21.0332192
+        ]
+      },
+      "id": "node/4572907889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5485651759",
+        "amenity": "marketplace",
+        "name": "Chợ Sáng Trần Quang Diệu",
+        "source": "Grab_Hanoi_2018_T2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8270102,
+          21.0170546
+        ]
+      },
+      "id": "node/5485651759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5485657266",
+        "addr:housenumber": "1",
+        "addr:province": "Hà Nội",
+        "addr:street": "Quan Nhân",
+        "amenity": "marketplace",
+        "name": "Chợ Tình Sapa",
+        "source": "grab_hanoi_2018_t2",
+        "takeaway": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8133716,
+          21.008478
+        ]
+      },
+      "id": "node/5485657266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5485660083",
+        "amenity": "marketplace",
+        "name": "Chợ Láng Thượng",
+        "source": "grab_hanoi_2018_t3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8048715,
+          21.0236535
+        ]
+      },
+      "id": "node/5485660083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5485711487",
+        "amenity": "marketplace",
+        "source": "grab_hanoi_2018_t1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.841697,
+          21.0282006
+        ]
+      },
+      "id": "node/5485711487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6685404399",
+        "addr:street": "Phố Kim Ngưu",
+        "amenity": "marketplace",
+        "name": "Viet Mark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8614475,
+          21.0066433
+        ]
+      },
+      "id": "node/6685404399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7061733386",
+        "amenity": "marketplace",
+        "name:en": "Lotte Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8125797,
+          21.032155
+        ]
+      },
+      "id": "node/7061733386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7202554793",
+        "amenity": "marketplace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8530217,
+          21.032633
+        ]
+      },
+      "id": "node/7202554793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9976457533",
+        "amenity": "marketplace",
+        "name": "Chợ Trung Tự"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8330627,
+          21.0086201
+        ]
+      },
+      "id": "node/9976457533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9976457534",
+        "amenity": "marketplace",
+        "name": "Chợ Nam Đồng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8283958,
+          21.0117663
+        ]
+      },
+      "id": "node/9976457534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10720585225",
+        "amenity": "marketplace",
+        "name": "Chợ Bách Khoa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.845399,
+          21.0016618
+        ]
+      },
+      "id": "node/10720585225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10858085458",
+        "amenity": "marketplace",
+        "name": "Chợ Bưởi",
+        "opening_hours": "PH,Mo-Su 07:00-21:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8066076,
+          21.0481877
+        ]
+      },
+      "id": "node/10858085458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13323664905",
+        "amenity": "marketplace",
+        "name": "Chợ cóc Nguyễn An Ninh",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8452366,
+          20.991089
+        ]
+      },
+      "id": "node/13323664905"
+    }
+  ]
+}

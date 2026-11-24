@@ -1,0 +1,1613 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-10-23T10:06:21Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/442977400",
+        "branch": "Bà Triệu",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "brand:wikipedia": "vi:VinMart",
+        "level": "3",
+        "name": "WinMart",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8495236,
+          21.0115759
+        ]
+      },
+      "id": "node/442977400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/570572174",
+        "addr:city": "Hà Nội",
+        "addr:district": "Trương ĐỊnh",
+        "addr:housenumber": "163A",
+        "addr:postcode": "10000",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Đại La",
+        "addr:subdistrict": "Đồng Tâm",
+        "branch": "Đại La",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "brand:wikipedia": "vi:VinMart",
+        "building": "yes",
+        "name": "WinMart",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8444399,
+          20.9963876
+        ]
+      },
+      "id": "way/570572174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/709289367",
+        "addr:housenumber": "238",
+        "addr:street": "Phố Lê Thanh Nghị",
+        "name": "Đồng Tâm Mart",
+        "phone": "0366172566, 0988707148",
+        "shop": "supermarket",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8425582,
+          21.0019479
+        ]
+      },
+      "id": "way/709289367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/858242836",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "8",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Phạm Ngọc Thạch",
+        "addr:subdistrict": "Kim Liên",
+        "building": "retail",
+        "building:levels": "3",
+        "name": "BRG Mart",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8333111,
+          21.0074827
+        ]
+      },
+      "id": "way/858242836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/892577254",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "brand:wikipedia": "vi:VinMart",
+        "buildingpart": "room",
+        "description": "Tầng hầm B2, toà R4, Vincom Royal City",
+        "indoor": "yes",
+        "level": "-2",
+        "name": "WinMart",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8162266,
+          21.003404
+        ]
+      },
+      "id": "way/892577254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/904135117",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "74",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Nam Đồng",
+        "addr:subdistrict": "Nam Đồng",
+        "building": "yes",
+        "building:levels": "5",
+        "name": "Tôm Mart",
+        "shop": "supermarket",
+        "website": "https://tommart.vn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8324625,
+          21.0129038
+        ]
+      },
+      "id": "way/904135117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/966677780",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "19",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Trúc Khê",
+        "addr:subdistrict": "Láng Hạ",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "brand:wikipedia": "vi:VinMart",
+        "building": "yes",
+        "name": "WinMart",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8081843,
+          21.0157889
+        ]
+      },
+      "id": "way/966677780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/977647385",
+        "addr:housenumber": "131",
+        "addr:street": "Phố Hàng Bông",
+        "name": "Japan Supermarket",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8458111,
+          21.0294273
+        ]
+      },
+      "id": "node/977647385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/977668079",
+        "addr:housenumber": "35",
+        "addr:street": "Phố Hàng Bông",
+        "name": "Siêu Thị Hapro",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8482851,
+          21.0307067
+        ]
+      },
+      "id": "node/977668079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1235776416",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hai Bà Trưng",
+        "addr:housenumber": "21",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Tô Hiến Thành",
+        "addr:subdistrict": "Nguyễn Du",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Lotus Mart",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8506592,
+          21.0134105
+        ]
+      },
+      "id": "way/1235776416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2021225711",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81112,
+          21.024243
+        ]
+      },
+      "id": "node/2021225711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150526966",
+        "addr:country": "VN",
+        "addr:housenumber": "27A",
+        "addr:street": "Phố Lý Thái Tổ",
+        "branch": "27A Lý Thái Tổ",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "name": "WinMart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8553923,
+          21.029586
+        ]
+      },
+      "id": "node/3150526966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3937714031",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "addr:district": "Quận Ba Đình",
+        "addr:housenumber": "206",
+        "addr:postcode": "118508",
+        "addr:street": "Kim Mã",
+        "addr:subdistrict": "Kim Mã",
+        "name": "Pet Mart Kim Mã",
+        "opening_hours": "09:00-22:00",
+        "operator": "Hệ Thống Siêu Thị Thú Cưng Pet Mart",
+        "phone": "0471069906",
+        "shop": "supermarket",
+        "website": "https://www.petmart.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8246645,
+          21.0318491
+        ]
+      },
+      "id": "node/3937714031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3937714032",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "addr:district": "Hai Bà Trưng",
+        "addr:housenumber": "3",
+        "addr:street": "Đường Đại Cồ Việt",
+        "addr:subdistrict": "Cầu Dền",
+        "name": "Pet Mart Đại Cồ Việt",
+        "opening_hours": "09:00-22:00",
+        "operator": "Hệ Thống Siêu Thị Thú Cưng Pet Mart",
+        "phone": "04 7106 9906",
+        "shop": "supermarket",
+        "website": "https://www.petmart.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8511563,
+          21.0084427
+        ]
+      },
+      "id": "node/3937714032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4155614990",
+        "name": "Street Market",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8387225,
+          21.026708
+        ]
+      },
+      "id": "node/4155614990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4423192489",
+        "name:en": "Circle K",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8501184,
+          21.0301114
+        ]
+      },
+      "id": "node/4423192489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4458010392",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:housenumber": "21",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Mã Mây",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8534205,
+          21.0357863
+        ]
+      },
+      "id": "node/4458010392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4741290347",
+        "addr:housenumber": "44/30",
+        "addr:street": "Tạ Quang Bửu",
+        "name": "Cửa Hàng Tự Chọn GT Mart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465822,
+          21.0040643
+        ]
+      },
+      "id": "node/4741290347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4750152424",
+        "addr:housenumber": "118",
+        "addr:street": "Hồng Mai",
+        "name": "Siêu thị gia đình",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8525636,
+          20.9986173
+        ]
+      },
+      "id": "node/4750152424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4776220022",
+        "addr:housenumber": "119",
+        "addr:street": "Lê Duẩn",
+        "name": "Siêu Thị Hapro",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8416221,
+          21.0245405
+        ]
+      },
+      "id": "node/4776220022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4781116321",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Hoàn Kiếm",
+        "addr:housenumber": "2",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Lãn Ông",
+        "name:en": "Miniso",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8500272,
+          21.0351507
+        ]
+      },
+      "id": "node/4781116321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4785798523",
+        "addr:housenumber": "13",
+        "addr:street": "Phố Hàn Thuyên",
+        "name": "Siêu Thị Hapro",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8583853,
+          21.0189202
+        ]
+      },
+      "id": "node/4785798523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4907004322",
+        "name:en": "T Mart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8378919,
+          21.028469
+        ]
+      },
+      "id": "node/4907004322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5205741622",
+        "name": "Gấu Bon Sumo",
+        "name:en": "Gau Bon Sumo",
+        "name:vi": "Gấu Bon Sumo",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8314415,
+          21.0343991
+        ]
+      },
+      "id": "node/5205741622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5332620421",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:housenumber": "11",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Nguyễn Biểu",
+        "name:en": "MaruMart",
+        "opening_hours": "Mo-Su 07:30-21:30",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8402,
+          21.0422916
+        ]
+      },
+      "id": "node/5332620421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5436612021",
+        "check_date": "2025-08-17",
+        "name": "Strassenmarkt",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8510354,
+          21.0387182
+        ]
+      },
+      "id": "node/5436612021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5485666060",
+        "addr:city": "Hà Nội",
+        "addr:district": "Quận Ba Đình",
+        "addr:housenumber": "18",
+        "addr:postcode": "10000",
+        "addr:province": "Hà Nội",
+        "addr:street": "Nguyễn Chí Thanh",
+        "addr:subdistrict": "Ngọc Khánh",
+        "name": "Siêu thị điện máy Mediamart",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "operator": "Mediamart",
+        "shop": "supermarket",
+        "source": "grab_hanoi_2018_t3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8123132,
+          21.029254
+        ]
+      },
+      "id": "node/5485666060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5485816793",
+        "addr:housenumber": "12",
+        "addr:street": "Đặng Tiến Đông",
+        "name": "Siêu thị Minh Hoa",
+        "shop": "supermarket",
+        "source": "grab_hanoi_2018_t2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.822998,
+          21.013239
+        ]
+      },
+      "id": "node/5485816793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5579554621",
+        "addr:housenumber": "51",
+        "addr:street": "Lê Đại Hành",
+        "name": "Seikamart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8477851,
+          21.0115978
+        ]
+      },
+      "id": "node/5579554621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5593898821",
+        "name": "Siêu Thị Hapro",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8328793,
+          21.0281849
+        ]
+      },
+      "id": "node/5593898821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5595959521",
+        "addr:housenumber": "2",
+        "addr:street": "Phố Phạm Ngọc Thạch",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "brand:wikipedia": "vi:VinMart",
+        "level": "-1",
+        "name": "WinMart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8321759,
+          21.0060945
+        ]
+      },
+      "id": "node/5595959521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5603479821",
+        "addr:street": "Thái Hà",
+        "name": "Siêu thị Minh Hoa Thái Hà",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8197131,
+          21.013353
+        ]
+      },
+      "id": "node/5603479821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5603611822",
+        "addr:street": "Phố Trần Quang Diệu",
+        "name": "Siêu thị Hoàng Cầu",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8258285,
+          21.0176252
+        ]
+      },
+      "id": "node/5603611822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5603809224",
+        "addr:street": "Phố Ngọc Khánh",
+        "name": "Siêu Thị Intimex",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8177924,
+          21.0293755
+        ]
+      },
+      "id": "node/5603809224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5603878921",
+        "addr:street": "Giảng Võ",
+        "name": "Siêu Thị Intimex",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8251982,
+          21.028135
+        ]
+      },
+      "id": "node/5603878921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5603879232",
+        "addr:street": "Giảng Võ",
+        "name": "Unimart Giảng Võ",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8226439,
+          21.0260451
+        ]
+      },
+      "id": "node/5603879232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5606598224",
+        "addr:city": "Hà Nội",
+        "addr:district": "Thanh Xuân",
+        "addr:housenumber": "3",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Lê Trọng Tấn",
+        "addr:subdistrict": "Khương Mai",
+        "branch": "Lê Trọng Tấn",
+        "internet_access": "wlan",
+        "name": "Tops Market",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "CÔNG TY TNHH DỊCH VỤ EB",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:qr_pay": "yes",
+        "phone": "+84 865 671 423",
+        "shop": "supermarket",
+        "website": "https://topsmarket.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8286292,
+          20.9998667
+        ]
+      },
+      "id": "node/5606598224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5608461621",
+        "addr:street": "Phố Lương Định Của",
+        "name": "BRG Mart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8351653,
+          21.0063252
+        ]
+      },
+      "id": "node/5608461621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5611266121",
+        "addr:street": "Phố Lê Trọng Tấn",
+        "name": "Siêu thị Thành Công",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.828332,
+          20.9987006
+        ]
+      },
+      "id": "node/5611266121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5619165232",
+        "name": "Siêu Thị Hapro",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8157284,
+          21.0226588
+        ]
+      },
+      "id": "node/5619165232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5632029722",
+        "addr:district": "Quận Đống Đa",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Ngõ 102 Trường Chinh",
+        "branch": "Trường Chinh",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "description": "Tầng 1, Toà HH1 Meco Complex",
+        "name": "WinMart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8374033,
+          20.9997316
+        ]
+      },
+      "id": "node/5632029722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5638848622",
+        "addr:street": "Ngõ 152 Thụy Khuê",
+        "name": "Unik mart Thuỵ Khuê",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8229993,
+          21.0432384
+        ]
+      },
+      "id": "node/5638848622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5814793053",
+        "addr:housenumber": "120",
+        "addr:street": "Phố Hàng Trống",
+        "internet_access": "wlan",
+        "name": "Brgmart",
+        "name:en": "Brgmart",
+        "name:vi": "Brgmart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.850622,
+          21.0288967
+        ]
+      },
+      "id": "node/5814793053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6014427285",
+        "name": "Siêu Thị Hapro",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8473135,
+          21.0302694
+        ]
+      },
+      "id": "node/6014427285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6024114885",
+        "addr:street": "Phố Trần Hưng Đạo",
+        "alt_name:ko": "H 마트",
+        "brand": "H Mart",
+        "brand:wikidata": "Q5636306",
+        "brand:wikipedia": "en:H Mart",
+        "cuisine": "asian",
+        "name": "H Mart",
+        "name:en": "H Mart",
+        "name:ko": "한아름",
+        "name:zh-Hans": "韩亚龙",
+        "name:zh-Hant": "韓亞龍",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8592192,
+          21.0165116
+        ]
+      },
+      "id": "node/6024114885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6031199885",
+        "name": "Siêu Thị Hapro",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8613508,
+          21.0013398
+        ]
+      },
+      "id": "node/6031199885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155720287",
+        "name": "K Market",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8506108,
+          21.0323778
+        ]
+      },
+      "id": "node/6155720287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6437524885",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8505197,
+          21.028295
+        ]
+      },
+      "id": "node/6437524885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6621785885",
+        "addr:district": "Quận Tây Hồ",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Đường Hoàng Hoa Thám",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "description": "Tầng hầm B1, Toà nhà Sun Grand City",
+        "level": "-1",
+        "name": "WinMart",
+        "name:en": "WinMart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8259918,
+          21.0407594
+        ]
+      },
+      "id": "node/6621785885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641028792",
+        "addr:city": "Hà Nội",
+        "addr:district": "Quận Ba Đình",
+        "addr:postcode": "100000",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:subdistrict": "Kim Mã",
+        "name": "UNLIM Tailor - Bespoke Tailoring Service",
+        "opening_hours": "09:00AM 09:00PM",
+        "operator": "UNLIM",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "098 947 3579",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8253323,
+          21.0316688
+        ]
+      },
+      "id": "node/6641028792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6652529904",
+        "name": "Fuji Mart",
+        "name:ja": "フジ・マート",
+        "shop": "supermarket",
+        "website": "http://fujimart.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.841208,
+          21.0184193
+        ]
+      },
+      "id": "node/6652529904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6979569185",
+        "name:en": "Huge supermarket (B2)",
+        "name:ru": "Огромный супермаркет (этаж B2)",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8163946,
+          21.0033595
+        ]
+      },
+      "id": "node/6979569185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6992010985",
+        "name": "BRGMart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8514357,
+          21.0388469
+        ]
+      },
+      "id": "node/6992010985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8389055279",
+        "addr:city": "Phường Thanh Lương",
+        "addr:district": "Hai Bà Trưng",
+        "addr:housenumber": "32B",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Lạc Trung",
+        "addr:subdistrict": "Thanh Lương",
+        "ele": "1",
+        "name": "Tinh Dầu 100",
+        "opening_hours": "Mo-Su 08:30-20:30",
+        "phone": "+84972168805",
+        "shop": "supermarket",
+        "website": "https://tinhdau100.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8622289,
+          21.003113
+        ]
+      },
+      "id": "node/8389055279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8943684244",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "170",
+        "addr:province": "Hà Nội",
+        "addr:street": "Đường La Thành",
+        "addr:subdistrict": "Ô Chợ Dừa",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "brand:wikipedia": "vi:VinMart",
+        "description": "Tầng 1, tòa nhà 170 La Thành",
+        "level": "0",
+        "name": "WinMart",
+        "phone": "+84 24 710 66866",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8278952,
+          21.02091
+        ]
+      },
+      "id": "node/8943684244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10621408635",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "changing_table": "no",
+        "level": "-1",
+        "name": "WinMart",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "organic": "yes",
+        "payment:app": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:qr_code": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8094935,
+          21.0233096
+        ]
+      },
+      "id": "node/10621408635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10621408645",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "name": "WinMart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.815145,
+          21.0312281
+        ]
+      },
+      "id": "node/10621408645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10653373905",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8436493,
+          21.0284379
+        ]
+      },
+      "id": "node/10653373905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10839011533",
+        "name:en": "BRGMART",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8506288,
+          21.028926
+        ]
+      },
+      "id": "node/10839011533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11152625106",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "16",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Phan Chu Trinh",
+        "name": "Tomibun",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8548727,
+          21.0213583
+        ]
+      },
+      "id": "node/11152625106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11461525804",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "6A",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Lý Đạo Thành",
+        "addr:subdistrict": "Tràng Tiền",
+        "contact:facebook": "https://www.facebook.com/thucphamhuucoorganica",
+        "email": "sales@organica.vn",
+        "mobile": "+84 89 899 1535",
+        "name": "Organica",
+        "organic": "only",
+        "phone": "+84 24 3201 3235",
+        "shop": "supermarket",
+        "website": "https://www.organica.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.857578,
+          21.0255339
+        ]
+      },
+      "id": "node/11461525804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11672849003",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hai Bà Trưng",
+        "addr:housenumber": "132",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Mai Hắc Đế",
+        "addr:subdistrict": "Lê Đại Hành",
+        "contact:facebook": "https://www.facebook.com/APGECOVIETNAM/",
+        "name": "APG Eco-mart",
+        "shop": "supermarket",
+        "website": "https://apgeco.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8505773,
+          21.0095423
+        ]
+      },
+      "id": "node/11672849003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11765598470",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8499669,
+          21.0318336
+        ]
+      },
+      "id": "node/11765598470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11886910769",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Nguyễn Khắc Hiếu",
+        "opening_hours": "24/7",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.841007,
+          21.0450045
+        ]
+      },
+      "id": "node/11886910769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12104684989",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "116",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Huế",
+        "addr:subdistrict": "Nguyễn Du",
+        "contact:facebook": "https://www.facebook.com/shikimart116phohue",
+        "name": "ShikiMart",
+        "phone": "+84967779666",
+        "shop": "supermarket",
+        "website": "https://shikimart.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8512238,
+          21.0161962
+        ]
+      },
+      "id": "node/12104684989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12118006235",
+        "addr:district": "Quận Hai Bà Trưng",
+        "addr:housenumber": "99A",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Võ Thị Sáu",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "name": "WinMart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8550689,
+          21.0034959
+        ]
+      },
+      "id": "node/12118006235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12213546992",
+        "addr:district": "Quận Đống Đa",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Phố Nguyễn Văn Tuyết",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "description": "Có thể vào từ cổng 98 Thái Thịnh hoặc cổng phố Nguyễn Văn Tuyết",
+        "name": "WinMart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.821519,
+          21.0077764
+        ]
+      },
+      "id": "node/12213546992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12228968664",
+        "addr:street": "Phố Hoàng Tích Trí",
+        "name": "Siêu thị B11 Kim Liên",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83513,
+          21.0075497
+        ]
+      },
+      "id": "node/12228968664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12252610131",
+        "name": "Fuji Mart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.818248,
+          21.0433213
+        ]
+      },
+      "id": "node/12252610131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12511798979",
+        "brand": "WinMart",
+        "brand:wikidata": "Q60245505",
+        "description": "Toà nhà D'Le Pont D'or",
+        "name": "WinMart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8226869,
+          21.0195364
+        ]
+      },
+      "id": "node/12511798979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12549262758",
+        "addr:city": "Hà Nội",
+        "addr:district": "Đống Đa",
+        "addr:housenumber": "324",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Tây Sơn",
+        "addr:subdistrict": "Thịnh Quang",
+        "name": "FujiMart",
+        "opening_hours": "Mo-Su 07:30-22:00",
+        "phone": "+84 24 3205 2324",
+        "shop": "supermarket",
+        "website": "https://fujimart.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8219659,
+          21.0055645
+        ]
+      },
+      "id": "node/12549262758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12840330523",
+        "addr:housenumber": "345",
+        "addr:street": "Phố Đội Cấn",
+        "name": "AEON MaxValu",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8168794,
+          21.0364155
+        ]
+      },
+      "id": "node/12840330523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13238906601",
+        "name:en": "Fujimart",
+        "opening_hours": "Mo-Su 07:30-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8477414,
+          21.0116782
+        ]
+      },
+      "id": "node/13238906601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13240102801",
+        "addr:city": "Hà Nội",
+        "addr:district": "Phường Ba Đình",
+        "addr:housenumber": "67",
+        "addr:province": "Thành phố Hà Nội",
+        "addr:street": "Tran Phu Street",
+        "name:en": "Fujimart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8321394,
+          21.0322095
+        ]
+      },
+      "id": "node/13240102801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13340116815",
+        "name": "Brgmart",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8499739,
+          21.0302632
+        ]
+      },
+      "id": "node/13340116815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13415760107",
+        "name": "Cho phiên xanh",
+        "organic": "only",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8260703,
+          21.037372
+        ]
+      },
+      "id": "node/13415760107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13595661101",
+        "addr:street": "Phố Chính Kinh",
+        "check_date": "2026-02-24",
+        "check_date:opening_hours": "2026-02-24",
+        "name": "FujiMart",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8116902,
+          20.9986499
+        ]
+      },
+      "id": "node/13595661101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13917548002",
+        "addr:city": "Hà Nội",
+        "addr:housenumber": "36",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Hoàng Cầu",
+        "addr:subdistrict": "Ô Chợ Dừa",
+        "brand": "FujiMart",
+        "level": "0",
+        "name": "FujiMart",
+        "opening_hours": "Mo-Su 07:30-22:00",
+        "phone": "+84 24 3203 0036",
+        "shop": "supermarket",
+        "website": "https://fujimart.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8237535,
+          21.0194726
+        ]
+      },
+      "id": "node/13917548002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14058428179",
+        "name": "Lotte Mart",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.812833,
+          21.0323151
+        ]
+      },
+      "id": "node/14058428179"
+    }
+  ]
+}

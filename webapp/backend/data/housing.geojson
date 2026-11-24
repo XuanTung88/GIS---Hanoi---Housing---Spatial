@@ -1,0 +1,4005 @@
+{
+  "type": "FeatureCollection",
+  "name": "housing_listings",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135426135",
+        "fid": 1,
+        "khu_vuc": "Đống Đa",
+        "gia": 19500000000,
+        "gia_ty": 19.5,
+        "gia_trieu_m2": 390,
+        "dien_tich": 50,
+        "so_tang": 7,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đường Trường Chinh, Phường Ngã Tư Sở, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135426135.htm",
+        "dist_bus_stop_m": 15.5,
+        "dist_hospital_m": 525.5,
+        "dist_marketplace_m": 330,
+        "dist_park_m": 581.7,
+        "dist_school_m": 381.5,
+        "dist_supermarket_m": 301.8,
+        "dist_water_lakes_m": 137.2,
+        "Z_score": -4.31056683150317,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82156,
+          21.002865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135342332",
+        "fid": 2,
+        "khu_vuc": "Đống Đa",
+        "gia": 9100000000,
+        "gia_ty": 9.1,
+        "gia_trieu_m2": 299.34,
+        "dien_tich": 30.3999,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đường Thái Hà, Phường Trung Liệt, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135342332.htm",
+        "dist_bus_stop_m": 204.2,
+        "dist_hospital_m": 365.5,
+        "dist_marketplace_m": 525.4,
+        "dist_park_m": 404.9,
+        "dist_school_m": 259.2,
+        "dist_supermarket_m": 263.8,
+        "dist_water_lakes_m": 433.3,
+        "Z_score": -6.12313380540086,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81776,
+          21.014875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135361765",
+        "fid": 3,
+        "khu_vuc": "Đống Đa",
+        "gia": 7500000000,
+        "gia_ty": 7.5,
+        "gia_trieu_m2": 159.57,
+        "dien_tich": 47,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đường Thái Hà, Phường Trung Liệt, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135361765.htm",
+        "dist_bus_stop_m": 204.2,
+        "dist_hospital_m": 365.5,
+        "dist_marketplace_m": 525.4,
+        "dist_park_m": 404.9,
+        "dist_school_m": 259.2,
+        "dist_supermarket_m": 263.8,
+        "dist_water_lakes_m": 433.3,
+        "Z_score": -6.12313380540086,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81776,
+          21.014875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "134167791",
+        "fid": 4,
+        "khu_vuc": "Đống Đa",
+        "gia": 4000000000,
+        "gia_ty": 4,
+        "gia_trieu_m2": 266.67,
+        "dien_tich": 15,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Tôn Đức Thắng, Phường Quốc Tử Giám, Quận Đống Đa",
+        "url": "https://www.nhatot.com/134167791.htm",
+        "dist_bus_stop_m": 46.6,
+        "dist_hospital_m": 248.4,
+        "dist_marketplace_m": 527.3,
+        "dist_park_m": 151.4,
+        "dist_school_m": 474.1,
+        "dist_supermarket_m": 147.2,
+        "dist_water_lakes_m": 133.9,
+        "Z_score": 1.00653334290194,
+        "p_value": 0.111000001430511,
+        "p_fdr": 0.171790126573156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.834175,
+          21.027647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135413615",
+        "fid": 5,
+        "khu_vuc": "Đống Đa",
+        "gia": 7600000000,
+        "gia_ty": 7.6,
+        "gia_trieu_m2": 253.33,
+        "dien_tich": 30,
+        "so_tang": 4,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Tôn Đức Thắng, Phường Quốc Tử Giám, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135413615.htm",
+        "dist_bus_stop_m": 46.6,
+        "dist_hospital_m": 248.4,
+        "dist_marketplace_m": 527.3,
+        "dist_park_m": 151.4,
+        "dist_school_m": 474.1,
+        "dist_supermarket_m": 147.2,
+        "dist_water_lakes_m": 133.9,
+        "Z_score": 1.00653334290194,
+        "p_value": 0.111000001430511,
+        "p_fdr": 0.171790126573156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.834175,
+          21.027647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135357678",
+        "fid": 6,
+        "khu_vuc": "Đống Đa",
+        "gia": 22000000000,
+        "gia_ty": 22,
+        "gia_trieu_m2": 366.67,
+        "dien_tich": 60,
+        "so_tang": 5,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Pháo Đài Láng, Phường Láng Thượng, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135357678.htm",
+        "dist_bus_stop_m": 226.2,
+        "dist_hospital_m": 723.6,
+        "dist_marketplace_m": 498.4,
+        "dist_park_m": 930.9,
+        "dist_school_m": 660.6,
+        "dist_supermarket_m": 493.4,
+        "dist_water_lakes_m": 653.7,
+        "Z_score": -3.21203311005242,
+        "p_value": 0.0040000001899898,
+        "p_fdr": 0.0088000004179775
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80507,
+          21.019154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135392338",
+        "fid": 7,
+        "khu_vuc": "Đống Đa",
+        "gia": 7100000000,
+        "gia_ty": 7.1,
+        "gia_trieu_m2": 144.9,
+        "dien_tich": 49,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Pháo Đài Láng, Phường Láng Hạ, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135392338.htm",
+        "dist_bus_stop_m": 226.2,
+        "dist_hospital_m": 723.6,
+        "dist_marketplace_m": 498.4,
+        "dist_park_m": 930.9,
+        "dist_school_m": 660.6,
+        "dist_supermarket_m": 493.4,
+        "dist_water_lakes_m": 653.7,
+        "Z_score": -3.21203311005242,
+        "p_value": 0.0040000001899898,
+        "p_fdr": 0.0088000004179775
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80507,
+          21.019154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135421455",
+        "fid": 8,
+        "khu_vuc": "Đống Đa",
+        "gia": 7200000000,
+        "gia_ty": 7.2,
+        "gia_trieu_m2": 156.52,
+        "dien_tich": 46,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Tam Khương, Phường Kim Liên, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135421455.htm",
+        "dist_bus_stop_m": 150.2,
+        "dist_hospital_m": 381.4,
+        "dist_marketplace_m": 71.8,
+        "dist_park_m": 175,
+        "dist_school_m": 116.5,
+        "dist_supermarket_m": 63.2,
+        "dist_water_lakes_m": 186.7,
+        "Z_score": -4.06783588370979,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83563,
+          21.006693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135013226",
+        "fid": 9,
+        "khu_vuc": "Đống Đa",
+        "gia": 14000000000,
+        "gia_ty": 14,
+        "gia_trieu_m2": 280,
+        "dien_tich": 50,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Ngõ An Trạch 2, Phường Hàng Bột, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135013226.htm",
+        "dist_bus_stop_m": 211,
+        "dist_hospital_m": 451.9,
+        "dist_marketplace_m": 864.7,
+        "dist_park_m": 447.8,
+        "dist_school_m": 233.3,
+        "dist_supermarket_m": 324.3,
+        "dist_water_lakes_m": 416.9,
+        "Z_score": 0.0155521852139429,
+        "p_value": 0.432000011205673,
+        "p_fdr": 0.466714297820415
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.831,
+          21.025846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135402784",
+        "fid": 10,
+        "khu_vuc": "Đống Đa",
+        "gia": 10400000000,
+        "gia_ty": 10.4,
+        "gia_trieu_m2": 231.11,
+        "dien_tich": 45,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Vũ Thạnh, Phường Ô Chợ Dừa, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135402784.htm",
+        "dist_bus_stop_m": 149.8,
+        "dist_hospital_m": 41.6,
+        "dist_marketplace_m": 962.9,
+        "dist_park_m": 631.3,
+        "dist_school_m": 334.9,
+        "dist_supermarket_m": 193.5,
+        "dist_water_lakes_m": 117,
+        "Z_score": -2.83568177067558,
+        "p_value": 0.0049999998882412,
+        "p_fdr": 0.0104310342496068
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82619,
+          21.026655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135408211",
+        "fid": 11,
+        "khu_vuc": "Đống Đa",
+        "gia": 13300000000,
+        "gia_ty": 13.3,
+        "gia_trieu_m2": 332.5,
+        "dien_tich": 40,
+        "so_tang": 7,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Ngõ Văn Hương, Phường Văn Chương, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135408211.htm",
+        "dist_bus_stop_m": 423.4,
+        "dist_hospital_m": 398.5,
+        "dist_marketplace_m": 554.5,
+        "dist_park_m": 504.4,
+        "dist_school_m": 246.5,
+        "dist_supermarket_m": 496.1,
+        "dist_water_lakes_m": 105.5,
+        "Z_score": -0.188489425727132,
+        "p_value": 0.49099999666214,
+        "p_fdr": 0.493999987840652
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.837105,
+          21.022491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "134690204",
+        "fid": 12,
+        "khu_vuc": "Đống Đa",
+        "gia": 8500000000,
+        "gia_ty": 8.5,
+        "gia_trieu_m2": 302.49,
+        "dien_tich": 28.1,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Tôn Đức Thắng, Phường Hàng Bột, Quận Đống Đa",
+        "url": "https://www.nhatot.com/134690204.htm",
+        "dist_bus_stop_m": 57.2,
+        "dist_hospital_m": 246.3,
+        "dist_marketplace_m": 674.4,
+        "dist_park_m": 275.4,
+        "dist_school_m": 301.2,
+        "dist_supermarket_m": 318.8,
+        "dist_water_lakes_m": 266.6,
+        "Z_score": 0.031155486929795,
+        "p_value": 0.426999986171722,
+        "p_fdr": 0.4654684533944
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83301,
+          21.025307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "134050194",
+        "fid": 13,
+        "khu_vuc": "Đống Đa",
+        "gia": 6880000000,
+        "gia_ty": 6.88,
+        "gia_trieu_m2": 172,
+        "dien_tich": 40,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Tôn Đức Thắng, Phường Hàng Bột, Quận Đống Đa",
+        "url": "https://www.nhatot.com/134050194.htm",
+        "dist_bus_stop_m": 57.2,
+        "dist_hospital_m": 246.3,
+        "dist_marketplace_m": 674.4,
+        "dist_park_m": 275.4,
+        "dist_school_m": 301.2,
+        "dist_supermarket_m": 318.8,
+        "dist_water_lakes_m": 266.6,
+        "Z_score": 0.031155486929795,
+        "p_value": 0.426999986171722,
+        "p_fdr": 0.4654684533944
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83301,
+          21.025307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135413357",
+        "fid": 14,
+        "khu_vuc": "Đống Đa",
+        "gia": 22000000000,
+        "gia_ty": 22,
+        "gia_trieu_m2": 500,
+        "dien_tich": 44,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường La Thành, Phường Ô Chợ Dừa, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135413357.htm",
+        "dist_bus_stop_m": 112.2,
+        "dist_hospital_m": 588.2,
+        "dist_marketplace_m": 708.8,
+        "dist_park_m": 384.1,
+        "dist_school_m": 328.7,
+        "dist_supermarket_m": 317.7,
+        "dist_water_lakes_m": 188.6,
+        "Z_score": -4.95213218624501,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8232,
+          21.022366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135412634",
+        "fid": 15,
+        "khu_vuc": "Đống Đa",
+        "gia": 7200000000,
+        "gia_ty": 7.2,
+        "gia_trieu_m2": 156.52,
+        "dien_tich": 46,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Nguyen Văn Tuyết , Phường Thịnh Quang, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135412634.htm",
+        "dist_bus_stop_m": 184.4,
+        "dist_hospital_m": 142.1,
+        "dist_marketplace_m": 483.3,
+        "dist_park_m": 619.9,
+        "dist_school_m": 296.6,
+        "dist_supermarket_m": 369.5,
+        "dist_water_lakes_m": 218.9,
+        "Z_score": -5.1022696653259,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81802,
+          21.008366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135412462",
+        "fid": 16,
+        "khu_vuc": "Đống Đa",
+        "gia": 7850000000,
+        "gia_ty": 7.85,
+        "gia_trieu_m2": 130.83,
+        "dien_tich": 60,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Thái Thịnh, Phường Láng Hạ, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135412462.htm",
+        "dist_bus_stop_m": 56.4,
+        "dist_hospital_m": 128.9,
+        "dist_marketplace_m": 594.2,
+        "dist_park_m": 623,
+        "dist_school_m": 118.2,
+        "dist_supermarket_m": 427,
+        "dist_water_lakes_m": 606.7,
+        "Z_score": -5.6743617242988,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.815605,
+          21.01342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135381951",
+        "fid": 17,
+        "khu_vuc": "Đống Đa",
+        "gia": 17000000000,
+        "gia_ty": 17,
+        "gia_trieu_m2": 326.92,
+        "dien_tich": 52,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Tôn Đức Thắng, Phường Ô Chợ Dừa, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135381951.htm",
+        "dist_bus_stop_m": 180.3,
+        "dist_hospital_m": 403.6,
+        "dist_marketplace_m": 325.3,
+        "dist_park_m": 337.9,
+        "dist_school_m": 108.4,
+        "dist_supermarket_m": 328.1,
+        "dist_water_lakes_m": 323.5,
+        "Z_score": -5.41369390644556,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.829735,
+          21.018501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135410482",
+        "fid": 18,
+        "khu_vuc": "Đống Đa",
+        "gia": 3000000000,
+        "gia_ty": 3,
+        "gia_trieu_m2": 150,
+        "dien_tich": 20,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Ngõ 165 Cầu Giấy, Phường Láng Thượng, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135410482.htm",
+        "dist_bus_stop_m": 260.5,
+        "dist_hospital_m": 549.8,
+        "dist_marketplace_m": 200.5,
+        "dist_park_m": 996.1,
+        "dist_school_m": 733.3,
+        "dist_supermarket_m": 580.9,
+        "dist_water_lakes_m": 406.8,
+        "Z_score": -1.34452259046309,
+        "p_value": 0.140000000596046,
+        "p_fdr": 0.200717650792178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80408,
+          21.022001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135409964",
+        "fid": 19,
+        "khu_vuc": "Đống Đa",
+        "gia": 14800000000,
+        "gia_ty": 14.8,
+        "gia_trieu_m2": 246.67,
+        "dien_tich": 60,
+        "so_tang": 4,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Thái Hà, Phường Láng Thượng, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135409964.htm",
+        "dist_bus_stop_m": 260.5,
+        "dist_hospital_m": 549.8,
+        "dist_marketplace_m": 200.5,
+        "dist_park_m": 996.1,
+        "dist_school_m": 733.3,
+        "dist_supermarket_m": 580.9,
+        "dist_water_lakes_m": 406.8,
+        "Z_score": -1.34452259046309,
+        "p_value": 0.140000000596046,
+        "p_fdr": 0.200717650792178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80408,
+          21.022001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135409656",
+        "fid": 20,
+        "khu_vuc": "Đống Đa",
+        "gia": 15600000000,
+        "gia_ty": 15.6,
+        "gia_trieu_m2": 283.64,
+        "dien_tich": 55,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Nguyễn Chí Thanh, Phường Láng Thượng, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135409656.htm",
+        "dist_bus_stop_m": 260.5,
+        "dist_hospital_m": 549.8,
+        "dist_marketplace_m": 200.5,
+        "dist_park_m": 996.1,
+        "dist_school_m": 733.3,
+        "dist_supermarket_m": 580.9,
+        "dist_water_lakes_m": 406.8,
+        "Z_score": -1.34452259046309,
+        "p_value": 0.140000000596046,
+        "p_fdr": 0.200717650792178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80408,
+          21.022001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135398538",
+        "fid": 21,
+        "khu_vuc": "Đống Đa",
+        "gia": 6500000000,
+        "gia_ty": 6.5,
+        "gia_trieu_m2": 162.5,
+        "dien_tich": 40,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Vũ ngọc Phan, Phường Láng Thượng, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135398538.htm",
+        "dist_bus_stop_m": 260.5,
+        "dist_hospital_m": 549.8,
+        "dist_marketplace_m": 200.5,
+        "dist_park_m": 996.1,
+        "dist_school_m": 733.3,
+        "dist_supermarket_m": 580.9,
+        "dist_water_lakes_m": 406.8,
+        "Z_score": -1.34452259046309,
+        "p_value": 0.140000000596046,
+        "p_fdr": 0.200717650792178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80408,
+          21.022001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135409896",
+        "fid": 22,
+        "khu_vuc": "Đống Đa",
+        "gia": 10000000000,
+        "gia_ty": 10,
+        "gia_trieu_m2": 232.56,
+        "dien_tich": 43,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đường Trường Chinh, Phường Phương Mai, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135409896.htm",
+        "dist_bus_stop_m": 188.9,
+        "dist_hospital_m": 60.2,
+        "dist_marketplace_m": 635.4,
+        "dist_park_m": 418.3,
+        "dist_school_m": 331.1,
+        "dist_supermarket_m": 260.8,
+        "dist_water_lakes_m": 164.3,
+        "Z_score": -2.10029172744462,
+        "p_value": 0.0509999990463257,
+        "p_fdr": 0.092104475889633
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8393,
+          21.001274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135409705",
+        "fid": 23,
+        "khu_vuc": "Đống Đa",
+        "gia": 9000000000,
+        "gia_ty": 9,
+        "gia_trieu_m2": 264.71,
+        "dien_tich": 34,
+        "so_tang": 5,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Ngõ Hào Nam, Phường Cát Linh, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135409705.htm",
+        "dist_bus_stop_m": 243.1,
+        "dist_hospital_m": 421,
+        "dist_marketplace_m": 557.7,
+        "dist_park_m": 309,
+        "dist_school_m": 50.6,
+        "dist_supermarket_m": 335.5,
+        "dist_water_lakes_m": 330.7,
+        "Z_score": -0.20793136625223,
+        "p_value": 0.481000006198883,
+        "p_fdr": 0.493999987840652
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.829765,
+          21.028984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135366842",
+        "fid": 24,
+        "khu_vuc": "Đống Đa",
+        "gia": 30000000000,
+        "gia_ty": 30,
+        "gia_trieu_m2": 375,
+        "dien_tich": 80,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Hoàng Cầu, Phường Cát Linh, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135366842.htm",
+        "dist_bus_stop_m": 243.1,
+        "dist_hospital_m": 421,
+        "dist_marketplace_m": 557.7,
+        "dist_park_m": 309,
+        "dist_school_m": 50.6,
+        "dist_supermarket_m": 335.5,
+        "dist_water_lakes_m": 330.7,
+        "Z_score": -0.20793136625223,
+        "p_value": 0.481000006198883,
+        "p_fdr": 0.493999987840652
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.829765,
+          21.028984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135405481",
+        "fid": 25,
+        "khu_vuc": "Đống Đa",
+        "gia": 9100000000,
+        "gia_ty": 9.1,
+        "gia_trieu_m2": 275.76,
+        "dien_tich": 33,
+        "so_tang": 4,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Thái Hà , Phường Ngã Tư Sở, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135405481.htm",
+        "dist_bus_stop_m": 205.2,
+        "dist_hospital_m": 476.8,
+        "dist_marketplace_m": 444.2,
+        "dist_park_m": 375.6,
+        "dist_school_m": 305.9,
+        "dist_supermarket_m": 93.7,
+        "dist_water_lakes_m": 267.6,
+        "Z_score": -4.82185151189445,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82206,
+          21.004723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135402520",
+        "fid": 26,
+        "khu_vuc": "Đống Đa",
+        "gia": 9000000000,
+        "gia_ty": 9,
+        "gia_trieu_m2": 160.71,
+        "dien_tich": 56,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Huỳnh Thúc Kháng, Phường Láng Hạ, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135402520.htm",
+        "dist_bus_stop_m": 135.4,
+        "dist_hospital_m": 396.9,
+        "dist_marketplace_m": 563.1,
+        "dist_park_m": 402.8,
+        "dist_school_m": 302.7,
+        "dist_supermarket_m": 490.2,
+        "dist_water_lakes_m": 422,
+        "Z_score": -4.91551574933569,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81288,
+          21.015371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135388680",
+        "fid": 27,
+        "khu_vuc": "Đống Đa",
+        "gia": 13800000000,
+        "gia_ty": 13.8,
+        "gia_trieu_m2": 276,
+        "dien_tich": 50,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Ngõ 20 Huỳnh Thúc Kháng, Phường Láng Hạ, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135388680.htm",
+        "dist_bus_stop_m": 135.4,
+        "dist_hospital_m": 396.9,
+        "dist_marketplace_m": 563.1,
+        "dist_park_m": 402.8,
+        "dist_school_m": 302.7,
+        "dist_supermarket_m": 490.2,
+        "dist_water_lakes_m": 422,
+        "Z_score": -4.91551574933569,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81288,
+          21.015371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135398623",
+        "fid": 28,
+        "khu_vuc": "Đống Đa",
+        "gia": 7100000000,
+        "gia_ty": 7.1,
+        "gia_trieu_m2": 173.17,
+        "dien_tich": 41,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Tây Sơn, Phường Quang Trung, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135398623.htm",
+        "dist_bus_stop_m": 171.5,
+        "dist_hospital_m": 344.1,
+        "dist_marketplace_m": 228.7,
+        "dist_park_m": 201.2,
+        "dist_school_m": 270.5,
+        "dist_supermarket_m": 356.4,
+        "dist_water_lakes_m": 262.8,
+        "Z_score": -6.65510554191564,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82633,
+          21.012478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135396811",
+        "fid": 29,
+        "khu_vuc": "Đống Đa",
+        "gia": 3900000000,
+        "gia_ty": 3.9,
+        "gia_trieu_m2": 185.71,
+        "dien_tich": 21,
+        "so_tang": 4,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Khâm Thiên, Phường Khâm Thiên, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135396811.htm",
+        "dist_bus_stop_m": 57.1,
+        "dist_hospital_m": 341.5,
+        "dist_marketplace_m": 848.2,
+        "dist_park_m": 687.6,
+        "dist_school_m": 17.6,
+        "dist_supermarket_m": 297.1,
+        "dist_water_lakes_m": 296.1,
+        "Z_score": -0.129969192378335,
+        "p_value": 0.493999987840652,
+        "p_fdr": 0.493999987840652
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83857,
+          21.019453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135388723",
+        "fid": 30,
+        "khu_vuc": "Đống Đa",
+        "gia": 12800000000,
+        "gia_ty": 12.8,
+        "gia_trieu_m2": 237.04,
+        "dien_tich": 54,
+        "so_tang": 6,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phường Khâm Thiên, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135388723.htm",
+        "dist_bus_stop_m": 57.1,
+        "dist_hospital_m": 341.5,
+        "dist_marketplace_m": 848.2,
+        "dist_park_m": 687.6,
+        "dist_school_m": 17.6,
+        "dist_supermarket_m": 297.1,
+        "dist_water_lakes_m": 296.1,
+        "Z_score": -0.129969192378335,
+        "p_value": 0.493999987840652,
+        "p_fdr": 0.493999987840652
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83857,
+          21.019453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "134317290",
+        "fid": 31,
+        "khu_vuc": "Đống Đa",
+        "gia": 17900000000,
+        "gia_ty": 17.9,
+        "gia_trieu_m2": 132.59,
+        "dien_tich": 135,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Lệnh Cư, Phường Khâm Thiên, Quận Đống Đa",
+        "url": "https://www.nhatot.com/134317290.htm",
+        "dist_bus_stop_m": 57.1,
+        "dist_hospital_m": 341.5,
+        "dist_marketplace_m": 848.2,
+        "dist_park_m": 687.6,
+        "dist_school_m": 17.6,
+        "dist_supermarket_m": 297.1,
+        "dist_water_lakes_m": 296.1,
+        "Z_score": -0.129969192378335,
+        "p_value": 0.493999987840652,
+        "p_fdr": 0.493999987840652
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83857,
+          21.019453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135392238",
+        "fid": 32,
+        "khu_vuc": "Đống Đa",
+        "gia": 7500000000,
+        "gia_ty": 7.5,
+        "gia_trieu_m2": 150,
+        "dien_tich": 50,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đường Nguyễn Chí Thanh, Phường Láng Hạ, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135392238.htm",
+        "dist_bus_stop_m": 44.8,
+        "dist_hospital_m": 703.3,
+        "dist_marketplace_m": 564.7,
+        "dist_park_m": 668,
+        "dist_school_m": 435.8,
+        "dist_supermarket_m": 316.9,
+        "dist_water_lakes_m": 671.1,
+        "Z_score": -4.07262056390059,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8076,
+          21.018599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135392179",
+        "fid": 33,
+        "khu_vuc": "Đống Đa",
+        "gia": 7850000000,
+        "gia_ty": 7.85,
+        "gia_trieu_m2": 145.37,
+        "dien_tich": 54,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Ngõ 49 Huỳnh Thúc Kháng, Phường Láng Hạ, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135392179.htm",
+        "dist_bus_stop_m": 213.9,
+        "dist_hospital_m": 621.4,
+        "dist_marketplace_m": 453.5,
+        "dist_park_m": 472.3,
+        "dist_school_m": 197.8,
+        "dist_supermarket_m": 229.1,
+        "dist_water_lakes_m": 482.3,
+        "Z_score": -4.31910180188975,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80986,
+          21.017134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135392080",
+        "fid": 34,
+        "khu_vuc": "Đống Đa",
+        "gia": 7400000000,
+        "gia_ty": 7.4,
+        "gia_trieu_m2": 154.17,
+        "dien_tich": 48,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Thái Hà, Phường Láng Hạ, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135392080.htm",
+        "dist_bus_stop_m": 90.9,
+        "dist_hospital_m": 371.4,
+        "dist_marketplace_m": 642.1,
+        "dist_park_m": 478.5,
+        "dist_school_m": 328.6,
+        "dist_supermarket_m": 381.3,
+        "dist_water_lakes_m": 485.4,
+        "Z_score": -5.46270450115052,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81672,
+          21.015345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135353610",
+        "fid": 35,
+        "khu_vuc": "Đống Đa",
+        "gia": 19696000000,
+        "gia_ty": 19.696,
+        "gia_trieu_m2": 557.96,
+        "dien_tich": 35.2999,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đê La Thành, Phường Quốc Tử Giám, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135353610.htm",
+        "dist_bus_stop_m": 121.4,
+        "dist_hospital_m": 325,
+        "dist_marketplace_m": 677.2,
+        "dist_park_m": 268.7,
+        "dist_school_m": 367.1,
+        "dist_supermarket_m": 104.5,
+        "dist_water_lakes_m": 266.7,
+        "Z_score": 0.0622597944063061,
+        "p_value": 0.437999993562698,
+        "p_fdr": 0.469008842664482
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8327,
+          21.027256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "124950143",
+        "fid": 36,
+        "khu_vuc": "Đống Đa",
+        "gia": 10800000000,
+        "gia_ty": 10.8,
+        "gia_trieu_m2": 174.19,
+        "dien_tich": 62,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Xã Đàn, Phường Ô Chợ Dừa, Quận Đống Đa",
+        "url": "https://www.nhatot.com/124950143.htm",
+        "dist_bus_stop_m": 89.3,
+        "dist_hospital_m": 546.8,
+        "dist_marketplace_m": 414.6,
+        "dist_park_m": 171.8,
+        "dist_school_m": 401.5,
+        "dist_supermarket_m": 110.7,
+        "dist_water_lakes_m": 295.2,
+        "Z_score": -6.19361822021224,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82462,
+          21.020054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135379088",
+        "fid": 37,
+        "khu_vuc": "Đống Đa",
+        "gia": 35000000000,
+        "gia_ty": 35,
+        "gia_trieu_m2": 486.11,
+        "dien_tich": 72,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Thái Hà, Phường Ô Chợ Dừa, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135379088.htm",
+        "dist_bus_stop_m": 89.3,
+        "dist_hospital_m": 546.8,
+        "dist_marketplace_m": 414.6,
+        "dist_park_m": 171.8,
+        "dist_school_m": 401.5,
+        "dist_supermarket_m": 110.7,
+        "dist_water_lakes_m": 295.2,
+        "Z_score": -6.19361822021224,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82462,
+          21.020054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135361963",
+        "fid": 38,
+        "khu_vuc": "Đống Đa",
+        "gia": 7950000000,
+        "gia_ty": 7.95,
+        "gia_trieu_m2": 176.67,
+        "dien_tich": 45,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Hồ Đắc Di, Phường Ô Chợ Dừa, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135361963.htm",
+        "dist_bus_stop_m": 89.3,
+        "dist_hospital_m": 546.8,
+        "dist_marketplace_m": 414.6,
+        "dist_park_m": 171.8,
+        "dist_school_m": 401.5,
+        "dist_supermarket_m": 110.7,
+        "dist_water_lakes_m": 295.2,
+        "Z_score": -6.19361822021224,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82462,
+          21.020054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "127456162",
+        "fid": 39,
+        "khu_vuc": "Đống Đa",
+        "gia": 4200000000,
+        "gia_ty": 4.2,
+        "gia_trieu_m2": 150,
+        "dien_tich": 28,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Tôn Đức Thắng, Phường Hàng Bột, Quận Đống Đa",
+        "url": "https://www.nhatot.com/127456162.htm",
+        "dist_bus_stop_m": 75.4,
+        "dist_hospital_m": 400.1,
+        "dist_marketplace_m": 823.2,
+        "dist_park_m": 465.9,
+        "dist_school_m": 173.9,
+        "dist_supermarket_m": 520.9,
+        "dist_water_lakes_m": 259.9,
+        "Z_score": -0.611719285081753,
+        "p_value": 0.308999985456467,
+        "p_fdr": 0.402032239142285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83227,
+          21.023514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135384321",
+        "fid": 40,
+        "khu_vuc": "Đống Đa",
+        "gia": 3150000000,
+        "gia_ty": 3.15,
+        "gia_trieu_m2": 175,
+        "dien_tich": 18,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đường Đê La Thành, Phường Phương Liên, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135384321.htm",
+        "dist_bus_stop_m": 174.6,
+        "dist_hospital_m": 402.1,
+        "dist_marketplace_m": 612.3,
+        "dist_park_m": 431.3,
+        "dist_school_m": 229.7,
+        "dist_supermarket_m": 297,
+        "dist_water_lakes_m": 429.9,
+        "Z_score": -4.2218389148555,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83516,
+          21.01379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "130454834",
+        "fid": 41,
+        "khu_vuc": "Đống Đa",
+        "gia": 8900000000,
+        "gia_ty": 8.9,
+        "gia_trieu_m2": 181.63,
+        "dien_tich": 49,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đê La Thành, Phường Ô Chợ Dừa, Quận Đống Đa",
+        "url": "https://www.nhatot.com/130454834.htm",
+        "dist_bus_stop_m": 224.9,
+        "dist_hospital_m": 637.9,
+        "dist_marketplace_m": 548.1,
+        "dist_park_m": 275,
+        "dist_school_m": 400.8,
+        "dist_supermarket_m": 207.8,
+        "dist_water_lakes_m": 179.8,
+        "Z_score": -5.86653020701572,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82427,
+          21.021286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135029559",
+        "fid": 42,
+        "khu_vuc": "Đống Đa",
+        "gia": 65000000000,
+        "gia_ty": 65,
+        "gia_trieu_m2": 496.18,
+        "dien_tich": 131,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Mai Anh Tuấn, Phường Ô Chợ Dừa, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135029559.htm",
+        "dist_bus_stop_m": 175.5,
+        "dist_hospital_m": 554.3,
+        "dist_marketplace_m": 492.1,
+        "dist_park_m": 101.2,
+        "dist_school_m": 339.1,
+        "dist_supermarket_m": 101.5,
+        "dist_water_lakes_m": 224,
+        "Z_score": -7.09634222842049,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82258,
+          21.018625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135352484",
+        "fid": 43,
+        "khu_vuc": "Đống Đa",
+        "gia": 3000000000,
+        "gia_ty": 3,
+        "gia_trieu_m2": 166.67,
+        "dien_tich": 18,
+        "so_tang": 3,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Hào Nam, Phường Cát Linh, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135352484.htm",
+        "dist_bus_stop_m": 46.2,
+        "dist_hospital_m": 188.9,
+        "dist_marketplace_m": 753.4,
+        "dist_park_m": 430.1,
+        "dist_school_m": 184.4,
+        "dist_supermarket_m": 246.6,
+        "dist_water_lakes_m": 96,
+        "Z_score": -2.64977963054576,
+        "p_value": 0.0049999998882412,
+        "p_fdr": 0.0104310342496068
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82757,
+          21.028059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135044886",
+        "fid": 44,
+        "khu_vuc": "Đống Đa",
+        "gia": 7400000000,
+        "gia_ty": 7.4,
+        "gia_trieu_m2": 185,
+        "dien_tich": 40,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Tây Sơn, Phường Quang Trung, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135044886.htm",
+        "dist_bus_stop_m": 88.8,
+        "dist_hospital_m": 371.6,
+        "dist_marketplace_m": 316.7,
+        "dist_park_m": 96.2,
+        "dist_school_m": 244.9,
+        "dist_supermarket_m": 280.4,
+        "dist_water_lakes_m": 149.8,
+        "Z_score": -6.52567315742258,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82536,
+          21.012014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135351881",
+        "fid": 45,
+        "khu_vuc": "Đống Đa",
+        "gia": 5000000000,
+        "gia_ty": 5,
+        "gia_trieu_m2": 208.33,
+        "dien_tich": 24,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Hàng Bột, Phường Hàng Bột, Quận Đống Đa",
+        "url": "https://www.nhatot.com/135351881.htm",
+        "dist_bus_stop_m": 206.4,
+        "dist_hospital_m": 633.2,
+        "dist_marketplace_m": 592.4,
+        "dist_park_m": 637.2,
+        "dist_school_m": 37.4,
+        "dist_supermarket_m": 214.9,
+        "dist_water_lakes_m": 397.9,
+        "Z_score": -3.13456534625235,
+        "p_value": 0.0020000000949949,
+        "p_fdr": 0.0045660379527242
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.829765,
+          21.02174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135350623",
+        "fid": 46,
+        "khu_vuc": "Ba Đình",
+        "gia": 3300000000,
+        "gia_ty": 3.3,
+        "gia_trieu_m2": 206.25,
+        "dien_tich": 16,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Ngọc Hà, Phường Đội Cấn, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135350623.htm",
+        "dist_bus_stop_m": 104.3,
+        "dist_hospital_m": 946.2,
+        "dist_marketplace_m": 369.5,
+        "dist_park_m": 472.2,
+        "dist_school_m": 271.5,
+        "dist_supermarket_m": 388.6,
+        "dist_water_lakes_m": 54.2,
+        "Z_score": -0.15077996124484,
+        "p_value": 0.46399998664856,
+        "p_fdr": 0.49249121389891
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82973,
+          21.038095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135380707",
+        "fid": 47,
+        "khu_vuc": "Ba Đình",
+        "gia": 16500000000,
+        "gia_ty": 16.5,
+        "gia_trieu_m2": 343.75,
+        "dien_tich": 48,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Nguyên Hồng, Phường Thành Công, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135380707.htm",
+        "dist_bus_stop_m": 306,
+        "dist_hospital_m": 618.4,
+        "dist_marketplace_m": 363.2,
+        "dist_park_m": 274.1,
+        "dist_school_m": 265.4,
+        "dist_supermarket_m": 408,
+        "dist_water_lakes_m": 262,
+        "Z_score": -3.73728823116063,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81219,
+          21.02063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135409963",
+        "fid": 48,
+        "khu_vuc": "Ba Đình",
+        "gia": 6000000000,
+        "gia_ty": 6,
+        "gia_trieu_m2": 66.67,
+        "dien_tich": 90,
+        "so_tang": 3,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135409963.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135388788",
+        "fid": 49,
+        "khu_vuc": "Ba Đình",
+        "gia": 7000000000,
+        "gia_ty": 7,
+        "gia_trieu_m2": 200,
+        "dien_tich": 35,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Thuỵ Khuê, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135388788.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135388097",
+        "fid": 50,
+        "khu_vuc": "Ba Đình",
+        "gia": 13500000000,
+        "gia_ty": 13.5,
+        "gia_trieu_m2": 248.16,
+        "dien_tich": 54.4,
+        "so_tang": 4,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Kim Mã, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135388097.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135366846",
+        "fid": 51,
+        "khu_vuc": "Ba Đình",
+        "gia": 7800000000,
+        "gia_ty": 7.8,
+        "gia_trieu_m2": 222.86,
+        "dien_tich": 35,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Ngõ 22 Lương Khánh Thiện, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135366846.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135366805",
+        "fid": 52,
+        "khu_vuc": "Ba Đình",
+        "gia": 7500000000,
+        "gia_ty": 7.5,
+        "gia_trieu_m2": 214.29,
+        "dien_tich": 35,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phan Kế Bính, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135366805.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135347532",
+        "fid": 53,
+        "khu_vuc": "Ba Đình",
+        "gia": 13500000000,
+        "gia_ty": 13.5,
+        "gia_trieu_m2": 337.5,
+        "dien_tich": 40,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Hoàng Hoa Thám, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135347532.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135336686",
+        "fid": 54,
+        "khu_vuc": "Ba Đình",
+        "gia": 8000000000,
+        "gia_ty": 8,
+        "gia_trieu_m2": 177.78,
+        "dien_tich": 45,
+        "so_tang": 7,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Nguyễn Thái Học, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135336686.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135336447",
+        "fid": 55,
+        "khu_vuc": "Ba Đình",
+        "gia": 9300000000,
+        "gia_ty": 9.3,
+        "gia_trieu_m2": 273.53,
+        "dien_tich": 34,
+        "so_tang": 6,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Yên Ninh, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135336447.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135336354",
+        "fid": 56,
+        "khu_vuc": "Ba Đình",
+        "gia": 31200000000,
+        "gia_ty": 31.2,
+        "gia_trieu_m2": 503.23,
+        "dien_tich": 62,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Thụy Khuê, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135336354.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135336215",
+        "fid": 57,
+        "khu_vuc": "Ba Đình",
+        "gia": 19000000000,
+        "gia_ty": 19,
+        "gia_trieu_m2": 263.89,
+        "dien_tich": 72,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Đào Tấn, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135336215.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135336085",
+        "fid": 58,
+        "khu_vuc": "Ba Đình",
+        "gia": 9000000000,
+        "gia_ty": 9,
+        "gia_trieu_m2": 225,
+        "dien_tich": 40,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Hoàng Hoa Thám, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135336085.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135336025",
+        "fid": 59,
+        "khu_vuc": "Ba Đình",
+        "gia": 15500000000,
+        "gia_ty": 15.5,
+        "gia_trieu_m2": 418.92,
+        "dien_tich": 37,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135336025.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135335902",
+        "fid": 60,
+        "khu_vuc": "Ba Đình",
+        "gia": 58000000000,
+        "gia_ty": 58,
+        "gia_trieu_m2": 464,
+        "dien_tich": 125,
+        "so_tang": 9,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Ngõ 120 Hoàng Hoa Thám, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135335902.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135335833",
+        "fid": 61,
+        "khu_vuc": "Ba Đình",
+        "gia": 10500000000,
+        "gia_ty": 10.5,
+        "gia_trieu_m2": 328.12,
+        "dien_tich": 32,
+        "so_tang": 3,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Hoàng Hoa Thám, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135335833.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135214190",
+        "fid": 62,
+        "khu_vuc": "Ba Đình",
+        "gia": 10000000000,
+        "gia_ty": 10,
+        "gia_trieu_m2": 277.78,
+        "dien_tich": 36,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Hoàng Hoa Thám, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135214190.htm",
+        "dist_bus_stop_m": 204.4,
+        "dist_hospital_m": 509.3,
+        "dist_marketplace_m": 191.2,
+        "dist_park_m": 715.9,
+        "dist_school_m": 156.7,
+        "dist_supermarket_m": 500.2,
+        "dist_water_lakes_m": 648.3,
+        "Z_score": 0.129065305128206,
+        "p_value": 0.39300000667572,
+        "p_fdr": 0.436266062456533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.035934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135409655",
+        "fid": 63,
+        "khu_vuc": "Ba Đình",
+        "gia": 11000000000,
+        "gia_ty": 11,
+        "gia_trieu_m2": 137.5,
+        "dien_tich": 80,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phường Đội Cấn, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135409655.htm",
+        "dist_bus_stop_m": 57.4,
+        "dist_hospital_m": 1004.4,
+        "dist_marketplace_m": 311.3,
+        "dist_park_m": 150.9,
+        "dist_school_m": 143.3,
+        "dist_supermarket_m": 319.6,
+        "dist_water_lakes_m": 295.3,
+        "Z_score": -1.05754859454811,
+        "p_value": 0.174999997019768,
+        "p_fdr": 0.23792134426283
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82389,
+          21.035336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135336209",
+        "fid": 64,
+        "khu_vuc": "Ba Đình",
+        "gia": 7300000000,
+        "gia_ty": 7.3,
+        "gia_trieu_m2": 235.48,
+        "dien_tich": 31,
+        "so_tang": 3,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phường Đội Cấn, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135336209.htm",
+        "dist_bus_stop_m": 57.4,
+        "dist_hospital_m": 1004.4,
+        "dist_marketplace_m": 311.3,
+        "dist_park_m": 150.9,
+        "dist_school_m": 143.3,
+        "dist_supermarket_m": 319.6,
+        "dist_water_lakes_m": 295.3,
+        "Z_score": -1.05754859454811,
+        "p_value": 0.174999997019768,
+        "p_fdr": 0.23792134426283
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82389,
+          21.035336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135214162",
+        "fid": 65,
+        "khu_vuc": "Ba Đình",
+        "gia": 13000000000,
+        "gia_ty": 13,
+        "gia_trieu_m2": 216.67,
+        "dien_tich": 60,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Hoàng Hoa Thám, Phường Đội Cấn, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135214162.htm",
+        "dist_bus_stop_m": 57.4,
+        "dist_hospital_m": 1004.4,
+        "dist_marketplace_m": 311.3,
+        "dist_park_m": 150.9,
+        "dist_school_m": 143.3,
+        "dist_supermarket_m": 319.6,
+        "dist_water_lakes_m": 295.3,
+        "Z_score": -1.05754859454811,
+        "p_value": 0.174999997019768,
+        "p_fdr": 0.23792134426283
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82389,
+          21.035336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "131850465",
+        "fid": 66,
+        "khu_vuc": "Ba Đình",
+        "gia": 6900000000,
+        "gia_ty": 6.9,
+        "gia_trieu_m2": 138,
+        "dien_tich": 50,
+        "so_tang": 2,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Nguyễn Chí Thanh, Phường Ngọc Khánh, Quận Ba Đình",
+        "url": "https://www.nhatot.com/131850465.htm",
+        "dist_bus_stop_m": 20.1,
+        "dist_hospital_m": 478.6,
+        "dist_marketplace_m": 523.7,
+        "dist_park_m": 32.5,
+        "dist_school_m": 230.3,
+        "dist_supermarket_m": 201.4,
+        "dist_water_lakes_m": 101.4,
+        "Z_score": -2.55574243682461,
+        "p_value": 0.006000000052154,
+        "p_fdr": 0.0123050848527227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8121,
+          21.027445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135403236",
+        "fid": 67,
+        "khu_vuc": "Ba Đình",
+        "gia": 16800000000,
+        "gia_ty": 16.8,
+        "gia_trieu_m2": 173.2,
+        "dien_tich": 97,
+        "so_tang": 5,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Ngõ 135 Đội Cấn, Phường Ngọc Hà, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135403236.htm",
+        "dist_bus_stop_m": 255.3,
+        "dist_hospital_m": 919.6,
+        "dist_marketplace_m": 166.3,
+        "dist_park_m": 531,
+        "dist_school_m": 254.3,
+        "dist_supermarket_m": 249.7,
+        "dist_water_lakes_m": 96.8,
+        "Z_score": -1.30328483022373,
+        "p_value": 0.118000000715256,
+        "p_fdr": 0.174121952274951
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.828255,
+          21.036432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "134167998",
+        "fid": 68,
+        "khu_vuc": "Ba Đình",
+        "gia": 18400000000,
+        "gia_ty": 18.4,
+        "gia_trieu_m2": 400,
+        "dien_tich": 46,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "đê la thành, Phường Giảng Võ, Quận Ba Đình",
+        "url": "https://www.nhatot.com/134167998.htm",
+        "dist_bus_stop_m": 218.9,
+        "dist_hospital_m": 739.3,
+        "dist_marketplace_m": 684.3,
+        "dist_park_m": 247.6,
+        "dist_school_m": 130.1,
+        "dist_supermarket_m": 311,
+        "dist_water_lakes_m": 125.1,
+        "Z_score": -4.80765417551333,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81949,
+          21.027061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135316025",
+        "fid": 69,
+        "khu_vuc": "Ba Đình",
+        "gia": 15500000000,
+        "gia_ty": 15.5,
+        "gia_trieu_m2": 258.33,
+        "dien_tich": 60,
+        "so_tang": 7,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Kim Mã, Phường Kim Mã, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135316025.htm",
+        "dist_bus_stop_m": 180,
+        "dist_hospital_m": 590.8,
+        "dist_marketplace_m": 507.8,
+        "dist_park_m": 339.7,
+        "dist_school_m": 128.7,
+        "dist_supermarket_m": 53.4,
+        "dist_water_lakes_m": 93.7,
+        "Z_score": -1.41045021430224,
+        "p_value": 0.101999998092651,
+        "p_fdr": 0.170054057562673
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82578,
+          21.031906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135172402",
+        "fid": 70,
+        "khu_vuc": "Ba Đình",
+        "gia": 25900000000,
+        "gia_ty": 25.9,
+        "gia_trieu_m2": 345.33,
+        "dien_tich": 75,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Kim Mã, Phường Kim Mã, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135172402.htm",
+        "dist_bus_stop_m": 180,
+        "dist_hospital_m": 590.8,
+        "dist_marketplace_m": 507.8,
+        "dist_park_m": 339.7,
+        "dist_school_m": 128.7,
+        "dist_supermarket_m": 53.4,
+        "dist_water_lakes_m": 93.7,
+        "Z_score": -1.41045021430224,
+        "p_value": 0.101999998092651,
+        "p_fdr": 0.170054057562673
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82578,
+          21.031906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135315713",
+        "fid": 71,
+        "khu_vuc": "Ba Đình",
+        "gia": 31900000000,
+        "gia_ty": 31.9,
+        "gia_trieu_m2": 306.73,
+        "dien_tich": 104,
+        "so_tang": 7,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Kim Mã, Phường Kim Mã, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135315713.htm",
+        "dist_bus_stop_m": 180,
+        "dist_hospital_m": 590.8,
+        "dist_marketplace_m": 507.8,
+        "dist_park_m": 339.7,
+        "dist_school_m": 128.7,
+        "dist_supermarket_m": 53.4,
+        "dist_water_lakes_m": 93.7,
+        "Z_score": -1.41045021430224,
+        "p_value": 0.101999998092651,
+        "p_fdr": 0.170054057562673
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82578,
+          21.031906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135390507",
+        "fid": 72,
+        "khu_vuc": "Ba Đình",
+        "gia": 15000000000,
+        "gia_ty": 15,
+        "gia_trieu_m2": 250,
+        "dien_tich": 60,
+        "so_tang": 6,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Hoàng Hoa Thám, Phường Vĩnh Phúc, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135390507.htm",
+        "dist_bus_stop_m": 326.9,
+        "dist_hospital_m": 283.2,
+        "dist_marketplace_m": 678.5,
+        "dist_park_m": 283.9,
+        "dist_school_m": 438.2,
+        "dist_supermarket_m": 880,
+        "dist_water_lakes_m": 461.3,
+        "Z_score": 1.89677783840332,
+        "p_value": 0.0240000002086163,
+        "p_fdr": 0.0468387100845575
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.04173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135347893",
+        "fid": 73,
+        "khu_vuc": "Ba Đình",
+        "gia": 38000000000,
+        "gia_ty": 38,
+        "gia_trieu_m2": 375.12,
+        "dien_tich": 101.3,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Đội Nhân, Phường Vĩnh Phúc, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135347893.htm",
+        "dist_bus_stop_m": 326.9,
+        "dist_hospital_m": 283.2,
+        "dist_marketplace_m": 678.5,
+        "dist_park_m": 283.9,
+        "dist_school_m": 438.2,
+        "dist_supermarket_m": 880,
+        "dist_water_lakes_m": 461.3,
+        "Z_score": 1.89677783840332,
+        "p_value": 0.0240000002086163,
+        "p_fdr": 0.0468387100845575
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.04173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135377342",
+        "fid": 74,
+        "khu_vuc": "Ba Đình",
+        "gia": 15500000000,
+        "gia_ty": 15.5,
+        "gia_trieu_m2": 369.05,
+        "dien_tich": 42,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Ngõ 22 Phúc Xá, Phường Phúc Xá, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135377342.htm",
+        "dist_bus_stop_m": 235.9,
+        "dist_hospital_m": 382,
+        "dist_marketplace_m": 479.3,
+        "dist_park_m": 632.1,
+        "dist_school_m": 133.4,
+        "dist_supermarket_m": 758.3,
+        "dist_water_lakes_m": 432.4,
+        "Z_score": 4.33374889947055,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84895,
+          21.045288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "134804069",
+        "fid": 75,
+        "khu_vuc": "Ba Đình",
+        "gia": 22000000000,
+        "gia_ty": 22,
+        "gia_trieu_m2": 458.33,
+        "dien_tich": 48,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Ngõ 36 Giang Văn Minh, Phường Đội Cấn, Quận Ba Đình",
+        "url": "https://www.nhatot.com/134804069.htm",
+        "dist_bus_stop_m": 149.8,
+        "dist_hospital_m": 747.7,
+        "dist_marketplace_m": 338.5,
+        "dist_park_m": 205.6,
+        "dist_school_m": 339.4,
+        "dist_supermarket_m": 338.2,
+        "dist_water_lakes_m": 245.6,
+        "Z_score": -0.493406030518397,
+        "p_value": 0.337999999523163,
+        "p_fdr": 0.434703716525325
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.828354,
+          21.033434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135368511",
+        "fid": 76,
+        "khu_vuc": "Ba Đình",
+        "gia": 12600000000,
+        "gia_ty": 12.6,
+        "gia_trieu_m2": 393.75,
+        "dien_tich": 32,
+        "so_tang": 6,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đường Liễu Giai, Phường Ngọc Hà, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135368511.htm",
+        "dist_bus_stop_m": 86.6,
+        "dist_hospital_m": 922.1,
+        "dist_marketplace_m": 92.7,
+        "dist_park_m": 299.3,
+        "dist_school_m": 152.1,
+        "dist_supermarket_m": 81.6,
+        "dist_water_lakes_m": 512.1,
+        "Z_score": -1.50230412117235,
+        "p_value": 0.0820000022649765,
+        "p_fdr": 0.13974648273327
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81338,
+          21.031786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135347492",
+        "fid": 77,
+        "khu_vuc": "Ba Đình",
+        "gia": 39500000000,
+        "gia_ty": 39.5,
+        "gia_trieu_m2": 280.14,
+        "dien_tich": 141,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đội Nhân, Phường Ngọc Khánh, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135347492.htm",
+        "dist_bus_stop_m": 139.9,
+        "dist_hospital_m": 601.6,
+        "dist_marketplace_m": 352.7,
+        "dist_park_m": 370.4,
+        "dist_school_m": 309.8,
+        "dist_supermarket_m": 264.4,
+        "dist_water_lakes_m": 227.2,
+        "Z_score": -1.63243910097044,
+        "p_value": 0.061999998986721,
+        "p_fdr": 0.110323527608724
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.03014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "133654717",
+        "fid": 78,
+        "khu_vuc": "Ba Đình",
+        "gia": 20500000000,
+        "gia_ty": 20.5,
+        "gia_trieu_m2": 372.73,
+        "dien_tich": 55,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Ngọc Khánh , Phường Ngọc Khánh, Quận Ba Đình",
+        "url": "https://www.nhatot.com/133654717.htm",
+        "dist_bus_stop_m": 139.9,
+        "dist_hospital_m": 601.6,
+        "dist_marketplace_m": 352.7,
+        "dist_park_m": 370.4,
+        "dist_school_m": 309.8,
+        "dist_supermarket_m": 264.4,
+        "dist_water_lakes_m": 227.2,
+        "Z_score": -1.63243910097044,
+        "p_value": 0.061999998986721,
+        "p_fdr": 0.110323527608724
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.03014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135309346",
+        "fid": 79,
+        "khu_vuc": "Ba Đình",
+        "gia": 7000000000,
+        "gia_ty": 7,
+        "gia_trieu_m2": 166.67,
+        "dien_tich": 42,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Ngọc Khánh, Phường Ngọc Khánh, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135309346.htm",
+        "dist_bus_stop_m": 139.9,
+        "dist_hospital_m": 601.6,
+        "dist_marketplace_m": 352.7,
+        "dist_park_m": 370.4,
+        "dist_school_m": 309.8,
+        "dist_supermarket_m": 264.4,
+        "dist_water_lakes_m": 227.2,
+        "Z_score": -1.63243910097044,
+        "p_value": 0.061999998986721,
+        "p_fdr": 0.110323527608724
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80995,
+          21.03014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135339809",
+        "fid": 80,
+        "khu_vuc": "Ba Đình",
+        "gia": 9000000000,
+        "gia_ty": 9,
+        "gia_trieu_m2": 257.14,
+        "dien_tich": 35,
+        "so_tang": 4,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phường Ngọc Hà, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135339809.htm",
+        "dist_bus_stop_m": 113.6,
+        "dist_hospital_m": 1019.9,
+        "dist_marketplace_m": 229.6,
+        "dist_park_m": 593.1,
+        "dist_school_m": 139.6,
+        "dist_supermarket_m": 235.8,
+        "dist_water_lakes_m": 114.1,
+        "Z_score": -1.28620436169386,
+        "p_value": 0.109999999403954,
+        "p_fdr": 0.171790126573156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82829,
+          21.037815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135221055",
+        "fid": 81,
+        "khu_vuc": "Ba Đình",
+        "gia": 13500000000,
+        "gia_ty": 13.5,
+        "gia_trieu_m2": 450,
+        "dien_tich": 30,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Kim Mã Thượng, Phường Ngọc Hà, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135221055.htm",
+        "dist_bus_stop_m": 113.6,
+        "dist_hospital_m": 1019.9,
+        "dist_marketplace_m": 229.6,
+        "dist_park_m": 593.1,
+        "dist_school_m": 139.6,
+        "dist_supermarket_m": 235.8,
+        "dist_water_lakes_m": 114.1,
+        "Z_score": -1.28620436169386,
+        "p_value": 0.109999999403954,
+        "p_fdr": 0.171790126573156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82829,
+          21.037815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "131647968",
+        "fid": 82,
+        "khu_vuc": "Ba Đình",
+        "gia": 45900000000,
+        "gia_ty": 45.9,
+        "gia_trieu_m2": 399.13,
+        "dien_tich": 115,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Liễu Giai, Phường Ngọc Hà, Quận Ba Đình",
+        "url": "https://www.nhatot.com/131647968.htm",
+        "dist_bus_stop_m": 113.6,
+        "dist_hospital_m": 1019.9,
+        "dist_marketplace_m": 229.6,
+        "dist_park_m": 593.1,
+        "dist_school_m": 139.6,
+        "dist_supermarket_m": 235.8,
+        "dist_water_lakes_m": 114.1,
+        "Z_score": -1.28620436169386,
+        "p_value": 0.109999999403954,
+        "p_fdr": 0.171790126573156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82829,
+          21.037815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135214240",
+        "fid": 83,
+        "khu_vuc": "Ba Đình",
+        "gia": 42900000000,
+        "gia_ty": 42.9,
+        "gia_trieu_m2": 304.26,
+        "dien_tich": 141,
+        "so_tang": 4,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đường Ngọc Hà, Phường Ngọc Hà, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135214240.htm",
+        "dist_bus_stop_m": 113.6,
+        "dist_hospital_m": 1019.9,
+        "dist_marketplace_m": 229.6,
+        "dist_park_m": 593.1,
+        "dist_school_m": 139.6,
+        "dist_supermarket_m": 235.8,
+        "dist_water_lakes_m": 114.1,
+        "Z_score": -1.28620436169386,
+        "p_value": 0.109999999403954,
+        "p_fdr": 0.171790126573156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82829,
+          21.037815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135214092",
+        "fid": 84,
+        "khu_vuc": "Ba Đình",
+        "gia": 9000000000,
+        "gia_ty": 9,
+        "gia_trieu_m2": 236.84,
+        "dien_tich": 38,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phường Ngọc Hà, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135214092.htm",
+        "dist_bus_stop_m": 113.6,
+        "dist_hospital_m": 1019.9,
+        "dist_marketplace_m": 229.6,
+        "dist_park_m": 593.1,
+        "dist_school_m": 139.6,
+        "dist_supermarket_m": 235.8,
+        "dist_water_lakes_m": 114.1,
+        "Z_score": -1.28620436169386,
+        "p_value": 0.109999999403954,
+        "p_fdr": 0.171790126573156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82829,
+          21.037815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135336621",
+        "fid": 85,
+        "khu_vuc": "Ba Đình",
+        "gia": 31000000000,
+        "gia_ty": 31,
+        "gia_trieu_m2": 442.86,
+        "dien_tich": 70,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Nguyễn Hồng, Phường Thành Công, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135336621.htm",
+        "dist_bus_stop_m": 141.4,
+        "dist_hospital_m": 893.3,
+        "dist_marketplace_m": 189.7,
+        "dist_park_m": 293.2,
+        "dist_school_m": 31.1,
+        "dist_supermarket_m": 196,
+        "dist_water_lakes_m": 277.1,
+        "Z_score": -4.57985657867984,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81582,
+          21.02089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135322853",
+        "fid": 86,
+        "khu_vuc": "Ba Đình",
+        "gia": 30000000000,
+        "gia_ty": 30,
+        "gia_trieu_m2": 212.77,
+        "dien_tich": 141,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Ngõ 279 Đội Cấn, Phường Ngọc Hà, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135322853.htm",
+        "dist_bus_stop_m": 259.6,
+        "dist_hospital_m": 883.1,
+        "dist_marketplace_m": 631.4,
+        "dist_park_m": 281,
+        "dist_school_m": 239.1,
+        "dist_supermarket_m": 386.4,
+        "dist_water_lakes_m": 304.4,
+        "Z_score": 0.0312843889570339,
+        "p_value": 0.492000013589859,
+        "p_fdr": 0.493999987840652
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.820496,
+          21.037228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135319118",
+        "fid": 87,
+        "khu_vuc": "Ba Đình",
+        "gia": 27000000000,
+        "gia_ty": 27,
+        "gia_trieu_m2": 509.43,
+        "dien_tich": 53,
+        "so_tang": 8,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Kim Mã, Phường Ngọc Khánh, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135319118.htm",
+        "dist_bus_stop_m": 58.1,
+        "dist_hospital_m": 520,
+        "dist_marketplace_m": 522.1,
+        "dist_park_m": 443.1,
+        "dist_school_m": 434.7,
+        "dist_supermarket_m": 413.7,
+        "dist_water_lakes_m": 108.9,
+        "Z_score": -0.905367661578536,
+        "p_value": 0.190999999642372,
+        "p_fdr": 0.25529670551583
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80835,
+          21.02961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135310608",
+        "fid": 88,
+        "khu_vuc": "Ba Đình",
+        "gia": 9300000000,
+        "gia_ty": 9.3,
+        "gia_trieu_m2": 216.28,
+        "dien_tich": 43,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Hàng Bún, Phường Quán Thánh, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135310608.htm",
+        "dist_bus_stop_m": 82.2,
+        "dist_hospital_m": 105.2,
+        "dist_marketplace_m": 402.8,
+        "dist_park_m": 233.3,
+        "dist_school_m": 147.4,
+        "dist_supermarket_m": 505.5,
+        "dist_water_lakes_m": 579.7,
+        "Z_score": 5.53119321310111,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84504,
+          21.041834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135251181",
+        "fid": 89,
+        "khu_vuc": "Ba Đình",
+        "gia": 33500000000,
+        "gia_ty": 33.5,
+        "gia_trieu_m2": 478.57,
+        "dien_tich": 70,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Đội Cấn, Phường Đội Cấn, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135251181.htm",
+        "dist_bus_stop_m": 49.3,
+        "dist_hospital_m": 1011.8,
+        "dist_marketplace_m": 415,
+        "dist_park_m": 64.7,
+        "dist_school_m": 135.1,
+        "dist_supermarket_m": 401.9,
+        "dist_water_lakes_m": 399.4,
+        "Z_score": -0.950242351358742,
+        "p_value": 0.166999995708466,
+        "p_fdr": 0.22962499409914
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82292,
+          21.03509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135277897",
+        "fid": 90,
+        "khu_vuc": "Ba Đình",
+        "gia": 12000000000,
+        "gia_ty": 12,
+        "gia_trieu_m2": 300,
+        "dien_tich": 40,
+        "so_tang": 6,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Sơn Tây, Phường Quán Thánh, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135277897.htm",
+        "dist_bus_stop_m": 37.6,
+        "dist_hospital_m": 650.6,
+        "dist_marketplace_m": 615.4,
+        "dist_park_m": 38.1,
+        "dist_school_m": 442,
+        "dist_supermarket_m": 382.4,
+        "dist_water_lakes_m": 36.8,
+        "Z_score": 3.73231539256716,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8393,
+          21.038942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135224174",
+        "fid": 91,
+        "khu_vuc": "Ba Đình",
+        "gia": 75000000000,
+        "gia_ty": 75,
+        "gia_trieu_m2": 681.82,
+        "dien_tich": 110,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Giảng Võ, Phường Giảng Võ, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135224174.htm",
+        "dist_bus_stop_m": 10.3,
+        "dist_hospital_m": 623.9,
+        "dist_marketplace_m": 656.8,
+        "dist_park_m": 499.2,
+        "dist_school_m": 400.8,
+        "dist_supermarket_m": 233.6,
+        "dist_water_lakes_m": 389.7,
+        "Z_score": -5.42718259028064,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82097,
+          21.024637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135203782",
+        "fid": 92,
+        "khu_vuc": "Ba Đình",
+        "gia": 9900000000,
+        "gia_ty": 9.9,
+        "gia_trieu_m2": 300,
+        "dien_tich": 33,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đường Phó Đức Chính, Phường Trúc Bạch, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135203782.htm",
+        "dist_bus_stop_m": 138.9,
+        "dist_hospital_m": 259.5,
+        "dist_marketplace_m": 431.7,
+        "dist_park_m": 117.6,
+        "dist_school_m": 86.5,
+        "dist_supermarket_m": 332.9,
+        "dist_water_lakes_m": 371.8,
+        "Z_score": 3.32847518731919,
+        "p_value": 0.0020000000949949,
+        "p_fdr": 0.0045660379527242
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84207,
+          21.047842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "132888563",
+        "fid": 93,
+        "khu_vuc": "Ba Đình",
+        "gia": 3600000000,
+        "gia_ty": 3.6,
+        "gia_trieu_m2": 163.64,
+        "dien_tich": 22,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Đội Cấn, Phường Cống Vị, Quận Ba Đình",
+        "url": "https://www.nhatot.com/132888563.htm",
+        "dist_bus_stop_m": 72.6,
+        "dist_hospital_m": 252.2,
+        "dist_marketplace_m": 183,
+        "dist_park_m": 651.8,
+        "dist_school_m": 79.2,
+        "dist_supermarket_m": 454.9,
+        "dist_water_lakes_m": 505.2,
+        "Z_score": 2.22530251372811,
+        "p_value": 0.0160000007599592,
+        "p_fdr": 0.0322666681992511
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81281,
+          21.037931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135222262",
+        "fid": 94,
+        "khu_vuc": "Ba Đình",
+        "gia": 52500000000,
+        "gia_ty": 52.5,
+        "gia_trieu_m2": 583.33,
+        "dien_tich": 90,
+        "so_tang": 6,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Đường Nguyễn Chí Thanh, Phường Giảng Võ, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135222262.htm",
+        "dist_bus_stop_m": 180.8,
+        "dist_hospital_m": 334.1,
+        "dist_marketplace_m": 486.8,
+        "dist_park_m": 218.4,
+        "dist_school_m": 197.7,
+        "dist_supermarket_m": 129.5,
+        "dist_water_lakes_m": 259.9,
+        "Z_score": -2.55055837508663,
+        "p_value": 0.0049999998882412,
+        "p_fdr": 0.0104310342496068
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81155,
+          21.025341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135214033",
+        "fid": 95,
+        "khu_vuc": "Ba Đình",
+        "gia": 27500000000,
+        "gia_ty": 27.5,
+        "gia_trieu_m2": 458.33,
+        "dien_tich": 60,
+        "so_tang": 6,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Đào Tấn, Phường Liễu Giai, Quận Ba Đình",
+        "url": "https://www.nhatot.com/135214033.htm",
+        "dist_bus_stop_m": 282.1,
+        "dist_hospital_m": 684,
+        "dist_marketplace_m": 457.9,
+        "dist_park_m": 391.8,
+        "dist_school_m": 366.8,
+        "dist_supermarket_m": 262,
+        "dist_water_lakes_m": 163.4,
+        "Z_score": 1.1933143373981,
+        "p_value": 0.126000002026558,
+        "p_fdr": 0.183686749942331
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.818756,
+          21.037996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135424951",
+        "fid": 96,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 16000000000,
+        "gia_ty": 16,
+        "gia_trieu_m2": 400,
+        "dien_tich": 40,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Nguyễn Văn Tố, Phường Cửa Đông, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135424951.htm",
+        "dist_bus_stop_m": 79.1,
+        "dist_hospital_m": 367.2,
+        "dist_marketplace_m": 134.3,
+        "dist_park_m": 294.8,
+        "dist_school_m": 72.8,
+        "dist_supermarket_m": 226.7,
+        "dist_water_lakes_m": 149.2,
+        "Z_score": 3.763691195956,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84506,
+          21.03135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "132847134",
+        "fid": 97,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 12800000000,
+        "gia_ty": 12.8,
+        "gia_trieu_m2": 345.95,
+        "dien_tich": 37,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Hàng Khoai, Phường Đồng Xuân, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/132847134.htm",
+        "dist_bus_stop_m": 102.9,
+        "dist_hospital_m": 391.7,
+        "dist_marketplace_m": 123.2,
+        "dist_park_m": 309.5,
+        "dist_school_m": 118.9,
+        "dist_supermarket_m": 271.2,
+        "dist_water_lakes_m": 553,
+        "Z_score": 6.91399151637638,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84849,
+          21.038176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135375548",
+        "fid": 98,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 60000000000,
+        "gia_ty": 60,
+        "gia_trieu_m2": 800,
+        "dien_tich": 75,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Gia Ngư, Phường Hàng Bạc, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135375548.htm",
+        "dist_bus_stop_m": 243.5,
+        "dist_hospital_m": 223.6,
+        "dist_marketplace_m": 53.1,
+        "dist_park_m": 396.8,
+        "dist_school_m": 246.3,
+        "dist_supermarket_m": 153.5,
+        "dist_water_lakes_m": 132.3,
+        "Z_score": 7.75369462087575,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85189,
+          21.033072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135336173",
+        "fid": 99,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 61800000000,
+        "gia_ty": 61.8,
+        "gia_trieu_m2": 561.82,
+        "dien_tich": 110,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Mặt phố Nam Ngư, Phường Hàng Bài, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135336173.htm",
+        "dist_bus_stop_m": 127.8,
+        "dist_hospital_m": 364.3,
+        "dist_marketplace_m": 588.3,
+        "dist_park_m": 588.2,
+        "dist_school_m": 232.7,
+        "dist_supermarket_m": 322.7,
+        "dist_water_lakes_m": 700,
+        "Z_score": 6.05105588251654,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85178,
+          21.021095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135214045",
+        "fid": 100,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 11900000000,
+        "gia_ty": 11.9,
+        "gia_trieu_m2": 340,
+        "dien_tich": 35,
+        "so_tang": 4,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Trần Quốc Toản, Phường Hàng Bài, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135214045.htm",
+        "dist_bus_stop_m": 127.8,
+        "dist_hospital_m": 364.3,
+        "dist_marketplace_m": 588.3,
+        "dist_park_m": 588.2,
+        "dist_school_m": 232.7,
+        "dist_supermarket_m": 322.7,
+        "dist_water_lakes_m": 700,
+        "Z_score": 6.05105588251654,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85178,
+          21.021095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135214010",
+        "fid": 101,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 11205000000,
+        "gia_ty": 11.205,
+        "gia_trieu_m2": 249,
+        "dien_tich": 45,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Trần Hưng Đạo, Phường Hàng Bài, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135214010.htm",
+        "dist_bus_stop_m": 127.8,
+        "dist_hospital_m": 364.3,
+        "dist_marketplace_m": 588.3,
+        "dist_park_m": 588.2,
+        "dist_school_m": 232.7,
+        "dist_supermarket_m": 322.7,
+        "dist_water_lakes_m": 700,
+        "Z_score": 6.05105588251654,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85178,
+          21.021095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "129409950",
+        "fid": 102,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 6500000000,
+        "gia_ty": 6.5,
+        "gia_trieu_m2": 216.67,
+        "dien_tich": 30,
+        "so_tang": 3,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Hàng Bồ, Phường Hàng Bồ, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/129409950.htm",
+        "dist_bus_stop_m": 64,
+        "dist_hospital_m": 348.8,
+        "dist_marketplace_m": 184.6,
+        "dist_park_m": 366.3,
+        "dist_school_m": 95.4,
+        "dist_supermarket_m": 157.3,
+        "dist_water_lakes_m": 320.1,
+        "Z_score": 6.64045818197429,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84924,
+          21.033937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135301216",
+        "fid": 103,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 24600000000,
+        "gia_ty": 24.6,
+        "gia_trieu_m2": 585.71,
+        "dien_tich": 42,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Lò Sũ, Phường Lý Thái Tổ, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135301216.htm",
+        "dist_bus_stop_m": 155.6,
+        "dist_hospital_m": 512.6,
+        "dist_marketplace_m": 256,
+        "dist_park_m": 176.2,
+        "dist_school_m": 96.2,
+        "dist_supermarket_m": 167.2,
+        "dist_water_lakes_m": 328,
+        "Z_score": 7.70089653931634,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85472,
+          21.030958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135299609",
+        "fid": 104,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 36000000000,
+        "gia_ty": 36,
+        "gia_trieu_m2": 878.05,
+        "dien_tich": 41,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Trần Quốc Toản, Phường Trần Hưng Đạo, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135299609.htm",
+        "dist_bus_stop_m": 124.1,
+        "dist_hospital_m": 389.9,
+        "dist_marketplace_m": 524.6,
+        "dist_park_m": 268.5,
+        "dist_school_m": 126.4,
+        "dist_supermarket_m": 620.6,
+        "dist_water_lakes_m": 267,
+        "Z_score": 3.40651023553155,
+        "p_value": 0.0020000000949949,
+        "p_fdr": 0.0045660379527242
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84719,
+          21.02033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135253680",
+        "fid": 105,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 150000000000,
+        "gia_ty": 150,
+        "gia_trieu_m2": 810.81,
+        "dien_tich": 185,
+        "so_tang": 9,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "hàm long, Phường Cửa Nam, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135253680.htm",
+        "dist_bus_stop_m": 130.8,
+        "dist_hospital_m": 196.3,
+        "dist_marketplace_m": 342.2,
+        "dist_park_m": 285.7,
+        "dist_school_m": 499.8,
+        "dist_supermarket_m": 127.5,
+        "dist_water_lakes_m": 285.4,
+        "Z_score": 1.99819828132887,
+        "p_value": 0.0320000015199184,
+        "p_fdr": 0.0586666694531838
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.842606,
+          21.025229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "132277701",
+        "fid": 106,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 3900000000,
+        "gia_ty": 3.9,
+        "gia_trieu_m2": 70.91,
+        "dien_tich": 55,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phùng Hưng, Phường Cửa Nam, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/132277701.htm",
+        "dist_bus_stop_m": 130.8,
+        "dist_hospital_m": 196.3,
+        "dist_marketplace_m": 342.2,
+        "dist_park_m": 285.7,
+        "dist_school_m": 499.8,
+        "dist_supermarket_m": 127.5,
+        "dist_water_lakes_m": 285.4,
+        "Z_score": 1.99819828132887,
+        "p_value": 0.0320000015199184,
+        "p_fdr": 0.0586666694531838
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.842606,
+          21.025229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "134639772",
+        "fid": 107,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 3500000000,
+        "gia_ty": 3.5,
+        "gia_trieu_m2": 218.75,
+        "dien_tich": 16,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Lê Duẩn, Phường Cửa Nam, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/134639772.htm",
+        "dist_bus_stop_m": 130.8,
+        "dist_hospital_m": 196.3,
+        "dist_marketplace_m": 342.2,
+        "dist_park_m": 285.7,
+        "dist_school_m": 499.8,
+        "dist_supermarket_m": 127.5,
+        "dist_water_lakes_m": 285.4,
+        "Z_score": 1.99819828132887,
+        "p_value": 0.0320000015199184,
+        "p_fdr": 0.0586666694531838
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.842606,
+          21.025229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "134639862",
+        "fid": 108,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 9000000000,
+        "gia_ty": 9,
+        "gia_trieu_m2": 290.32,
+        "dien_tich": 31,
+        "so_tang": 2,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Lê Duẩn, Phường Cửa Nam, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/134639862.htm",
+        "dist_bus_stop_m": 130.8,
+        "dist_hospital_m": 196.3,
+        "dist_marketplace_m": 342.2,
+        "dist_park_m": 285.7,
+        "dist_school_m": 499.8,
+        "dist_supermarket_m": 127.5,
+        "dist_water_lakes_m": 285.4,
+        "Z_score": 1.99819828132887,
+        "p_value": 0.0320000015199184,
+        "p_fdr": 0.0586666694531838
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.842606,
+          21.025229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135118758",
+        "fid": 109,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 38000000000,
+        "gia_ty": 38,
+        "gia_trieu_m2": 584.62,
+        "dien_tich": 65,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Cổ Hoàn Kiếm, Phường Hàng Buồm, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135118758.htm",
+        "dist_bus_stop_m": 244.2,
+        "dist_hospital_m": 87.1,
+        "dist_marketplace_m": 245.1,
+        "dist_park_m": 656,
+        "dist_school_m": 139.7,
+        "dist_supermarket_m": 171.9,
+        "dist_water_lakes_m": 404.2,
+        "Z_score": 7.82120735265673,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85178,
+          21.035583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135085746",
+        "fid": 110,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 10500000000,
+        "gia_ty": 10.5,
+        "gia_trieu_m2": 300,
+        "dien_tich": 35,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Phố Hàng Bạc, Phường Hàng Bạc, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135085746.htm",
+        "dist_bus_stop_m": 177.4,
+        "dist_hospital_m": 144.7,
+        "dist_marketplace_m": 81.1,
+        "dist_park_m": 506.4,
+        "dist_school_m": 190.4,
+        "dist_supermarket_m": 201.1,
+        "dist_water_lakes_m": 228.4,
+        "Z_score": 7.82120735265673,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85153,
+          21.034006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135037474",
+        "fid": 111,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 39800000000,
+        "gia_ty": 39.8,
+        "gia_trieu_m2": 884.44,
+        "dien_tich": 45,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Lý Nam Đế, Phường Cửa Đông, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135037474.htm",
+        "dist_bus_stop_m": 51.3,
+        "dist_hospital_m": 673.1,
+        "dist_marketplace_m": 404.5,
+        "dist_park_m": 130,
+        "dist_school_m": 322.6,
+        "dist_supermarket_m": 529.6,
+        "dist_water_lakes_m": 40.1,
+        "Z_score": 4.12379866153944,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84494,
+          21.034864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135035252",
+        "fid": 112,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 35000000000,
+        "gia_ty": 35,
+        "gia_trieu_m2": 500,
+        "dien_tich": 70,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Lý Nam Đế, Phường Cửa Đông, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135035252.htm",
+        "dist_bus_stop_m": 51.3,
+        "dist_hospital_m": 673.1,
+        "dist_marketplace_m": 404.5,
+        "dist_park_m": 130,
+        "dist_school_m": 322.6,
+        "dist_supermarket_m": 529.6,
+        "dist_water_lakes_m": 40.1,
+        "Z_score": 4.12379866153944,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84494,
+          21.034864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135034663",
+        "fid": 113,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 38800000000,
+        "gia_ty": 38.8,
+        "gia_trieu_m2": 596.92,
+        "dien_tich": 65,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Bát đàn, Phường Hàng Bông, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135034663.htm",
+        "dist_bus_stop_m": 90.4,
+        "dist_hospital_m": 119.1,
+        "dist_marketplace_m": 286.8,
+        "dist_park_m": 286.4,
+        "dist_school_m": 50.6,
+        "dist_supermarket_m": 59.5,
+        "dist_water_lakes_m": 434.2,
+        "Z_score": 4.21662045301472,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84591,
+          21.028898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135024349",
+        "fid": 114,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 32000000000,
+        "gia_ty": 32,
+        "gia_trieu_m2": 581.82,
+        "dien_tich": 55,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Hội Vũ, Phường Hàng Bông, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135024349.htm",
+        "dist_bus_stop_m": 150.7,
+        "dist_hospital_m": 155.5,
+        "dist_marketplace_m": 322.1,
+        "dist_park_m": 222.6,
+        "dist_school_m": 73.7,
+        "dist_supermarket_m": 94,
+        "dist_water_lakes_m": 442,
+        "Z_score": 4.10529020196721,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84533,
+          21.028708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135024343",
+        "fid": 115,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 41500000000,
+        "gia_ty": 41.5,
+        "gia_trieu_m2": 1185.71,
+        "dien_tich": 35,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Hàng Da, Phường Hàng Bông, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135024343.htm",
+        "dist_bus_stop_m": 40.7,
+        "dist_hospital_m": 279.8,
+        "dist_marketplace_m": 54.5,
+        "dist_park_m": 331.6,
+        "dist_school_m": 159.9,
+        "dist_supermarket_m": 111.1,
+        "dist_water_lakes_m": 268.4,
+        "Z_score": 4.18151574948385,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8467,
+          21.031092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135021770",
+        "fid": 116,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 35500000000,
+        "gia_ty": 35.5,
+        "gia_trieu_m2": 507.14,
+        "dien_tich": 70,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Hội Vũ, Phường Hàng Trống, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135021770.htm",
+        "dist_bus_stop_m": 101.9,
+        "dist_hospital_m": 343.7,
+        "dist_marketplace_m": 454.8,
+        "dist_park_m": 137.2,
+        "dist_school_m": 126.5,
+        "dist_supermarket_m": 29.8,
+        "dist_water_lakes_m": 224.2,
+        "Z_score": 5.93948578898057,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85031,
+          21.028479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "135018430",
+        "fid": 117,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 35000000000,
+        "gia_ty": 35,
+        "gia_trieu_m2": 1093.75,
+        "dien_tich": 32,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Thợ Nhuộm, Phường Trần Hưng Đạo, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/135018430.htm",
+        "dist_bus_stop_m": 78.8,
+        "dist_hospital_m": 250.3,
+        "dist_marketplace_m": 184.2,
+        "dist_park_m": 175.4,
+        "dist_school_m": 24.6,
+        "dist_supermarket_m": 605.6,
+        "dist_water_lakes_m": 419.7,
+        "Z_score": 4.27209890193711,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84802,
+          21.023352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "132732611",
+        "fid": 118,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 12500000000,
+        "gia_ty": 12.5,
+        "gia_trieu_m2": 478.93,
+        "dien_tich": 26.1,
+        "so_tang": 1,
+        "loai_nha": "Hẻm",
+        "dia_chi": "Ngõ Hội Vũ, Phường Hàng Bông, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/132732611.htm",
+        "dist_bus_stop_m": 151.2,
+        "dist_hospital_m": 201.8,
+        "dist_marketplace_m": 288.7,
+        "dist_park_m": 221.3,
+        "dist_school_m": 115.2,
+        "dist_supermarket_m": 78.9,
+        "dist_water_lakes_m": 395.1,
+        "Z_score": 3.96028413460088,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84513,
+          21.029112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "133556114",
+        "fid": 119,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 18000000000,
+        "gia_ty": 18,
+        "gia_trieu_m2": 310.34,
+        "dien_tich": 58,
+        "so_tang": 5,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phố Phúc Tân, Phường Phúc Tân, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/133556114.htm",
+        "dist_bus_stop_m": 150.1,
+        "dist_hospital_m": 331.7,
+        "dist_marketplace_m": 408.2,
+        "dist_park_m": 657.5,
+        "dist_school_m": 198.7,
+        "dist_supermarket_m": 223.7,
+        "dist_water_lakes_m": 575.1,
+        "Z_score": 7.5964151018316,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.855545,
+          21.03546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "134875642",
+        "fid": 120,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 15000000000,
+        "gia_ty": 15,
+        "gia_trieu_m2": 214.29,
+        "dien_tich": 70,
+        "so_tang": 7,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Phường Chương Dương, Quận Hoàn Kiếm",
+        "url": "https://www.nhatot.com/134875642.htm",
+        "dist_bus_stop_m": 296.1,
+        "dist_hospital_m": 797,
+        "dist_marketplace_m": 1164.8,
+        "dist_park_m": 314.5,
+        "dist_school_m": 104.6,
+        "dist_supermarket_m": 489,
+        "dist_water_lakes_m": 537.4,
+        "Z_score": 6.27132047090803,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.86216,
+          21.026539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "89575049",
+        "fid": 121,
+        "khu_vuc": "Hoàn Kiếm",
+        "gia": 350000000000,
+        "gia_ty": 350,
+        "gia_trieu_m2": 654.21,
+        "dien_tich": 535,
+        "so_tang": 1,
+        "loai_nha": "Mặt phố",
+        "dia_chi": "Đường Nguyễn Gia Thiều",
+        "url": "https://www.nhatot.com/89575049.htm",
+        "dist_bus_stop_m": 129.8,
+        "dist_hospital_m": 328.2,
+        "dist_marketplace_m": 235.1,
+        "dist_park_m": 223.5,
+        "dist_school_m": 55.5,
+        "dist_supermarket_m": 622.7,
+        "dist_water_lakes_m": 350.8,
+        "Z_score": 4.27209890193711,
+        "p_value": 0.0010000000474974,
+        "p_fdr": 0.0024200001149438
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.847374,
+          21.022963
+        ]
+      }
+    }
+  ]
+}
